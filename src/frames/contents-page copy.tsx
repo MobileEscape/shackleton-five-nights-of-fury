@@ -43,11 +43,11 @@ const hints: Hint[] = [
     link: "/our-apologies?index=0",
   },
   {
-    label: "Invitation",
+    label: "Penguin Artwork",
     link: "/our-apologies?index=1",
   },
   {
-    label: "Soup Label",
+    label: "Sea Shanty",
     link: "/our-apologies?index=2",
   },
   {
@@ -55,7 +55,7 @@ const hints: Hint[] = [
     link: "/our-apologies?index=3",
   },
   {
-    label: "Dot Matrix Puzzle",
+    label: "Tobacco Paper",
     link: "/our-apologies?index=4",
   },
   {
@@ -63,15 +63,15 @@ const hints: Hint[] = [
     link: "/our-apologies?index=5",
   },
   {
-    label: "Plankton Painting",
+    label: "Compass Wheel",
     link: "/our-apologies?index=6",
   },
   {
-    label: "Wild's Winds / Dot Matrix",
+    label: "Wild's Note",
     link: "/our-apologies?index=6",
   },
   {
-    label: "Pipes x 4",
+    label: "Flow Card",
     link: "/our-apologies?index=7",
   },
 ];
