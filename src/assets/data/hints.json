@@ -1,0 +1,233 @@
+[
+  {
+    "puzzle": "Invitation",
+    "hints": [
+      {
+        "label": "Part 1",
+        "parts": [
+          {
+            "label": "Nudge",
+            "text": "As the trusty flow card seems to indicate, Three bubbles (two assets) you will need to assimilate. See how one of the assets has front and back? Great!"
+          },
+          {
+            "label": "Small Hint",
+            "text": "If - aboard a ship - the time you wish to tell Then you will surely need a schedule of the bells One of the tricks is that the signals share a meaning Context is key if its the truth you’ll be gleaning"
+          },
+          {
+            "label": "Medium Hint",
+            "text": "The invitation you must scour How many bells at dinner hour? 6 bells means the time is 1 of 3 options 7:00 seems like the best of decisions Add to that observation when solstice ends 8 bells likely means midnight is your friend"
+          },
+          {
+            "label": "Big Hint",
+            "text": "You’re getting very close to scheduling the festivities Dinner and solstice give you a degree of certainty Each takes place at 7 pm and midnight, respectively Can you slot in the other times accordingly?"
+          },
+          {
+            "label": "Solution",
+            "text": "To figure out the actual times of the Mid-Winter’s Day Celebration, you must infer the time from the nature of the events. In other words, which of the 3 possible times are indicated by the bells (6 possible times if you include AM and PM)? Dinner is marked as 6 bells on the invitation. We see from the Bell Schedule in the journal pages that 6 bells can either mean 3, 7, or 11 and can be either AM or PM. We know that dinner is usually a PM activity, and that it is unlikely to take place at 3pm or 11pm. Furthermore, we observe that the solstice ends at 8 bells. A solstice is introduced at the start of a day and ends at the end of a day - 12 midnight. Therefore, with dinner at 7 PM and solstice end at 12 AM, we can reasonably infer the following: <ul><li><b>6PM </b>(“Guess Who?” Game)</li> <li><b>7PM </b>(Dinner Hour)</li> <li><b>9PM</b> (Dance Party and Election)</li> <li><b>11PM/</b> (Toasting, Speeches and Riddles)</li> <li><b>12AM</b> (Mid-Winter Solstice Ends)</li></ul>"
+          }
+        ]
+      },
+      {
+        "label": "Part 2",
+        "parts": [
+          {
+            "label": "Nudge",
+            "text": "To figure out the invitation’s second step Ensure the specific times are set."
+          },
+          {
+            "label": "Small Hint",
+            "text": "Using times we’ve deduced Ensure the back of the invitation is used"
+          },
+          {
+            "label": "Medium Hint",
+            "text": "The first time that we can see Is 6 PM, pointing down to “V”"
+          },
+          {
+            "label": "Big Hint",
+            "text": "Follow the logic to see where to go 7 PM moves over to an “O”"
+          },
+          {
+            "label": "Solution",
+            "text": "First ensure you have solved Step 1. Using the schedule you have determined to be: <ul><li><b>6PM </b>(“Guess Who?” Game)</li> <li><b>7PM </b>(Dinner Hour)</li> <li><b>9PM</b> (Dance Party and Election)</li> <li><b>11PM/</b> (Toasting, Speeches and Riddles)</li> <li><b>12AM</b> (Mid-Winter Solstice Ends)</li></ul> You can now find those locations on the circles on the back of the invitation. The top circle is marked as “AM” and the bottom as “PM”. The first 4 times are PM times. These give us the letters “VOTE” and the AM clock at 12 indicates “D” so therefore the answer to this puzzle is <b>VOTED. Enter that answer on your solutions page beside the 22 icon.</b>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "puzzle": "Plankton Painting",
+    "hints": [
+      {
+        "label": "Nudge",
+        "text": "Front and back of the painting, that’s all you need. Everything to solve on two sides, you’ll see."
+      },
+      {
+        "label": "Small Hint",
+        "text": "You might get this one by reading the note on the back. Or maybe you think the plankton look a little out of whack?"
+      },
+      {
+        "label": "Medium Hint",
+        "text": "On all 4 sides, the plankton seem to extend. I wonder why Marston never painted the legs’ ends?"
+      },
+      {
+        "label": "Big Hint",
+        "text": "The clue on the back mentions something round. If you wrap the painting 2 ways, 2 words you have now found. The two words are part of 3 in English, all with the same sound."
+      },
+      {
+        "label": "Solution",
+        "text": "Marston’s painting depicts Clark’s test tube. A test tube is round. If you wrap the painting into a cylinder (first one way, then the other) you will observe that the plankton legs create words. The words are “THERE” and “THEY’RE”. Which of the three is missing? There are three words in English that all sound the same. The missing word is <b>“THEIR”. Enter that answer on your solutions page beside the plankton icon.</b>"
+      }
+    ]
+  },
+  {
+    "puzzle": "Wuzzle Puzzle",
+    "hints": [
+      {
+        "label": "Nudge",
+        "text": "Worsley is back with more exercise for your brain! Seems like the crew loves to play games And act! In fact, there are two Acts listed. It’s all on the back, in case you missed it."
+      },
+      {
+        "label": "Small Hint",
+        "text": "Multiple times Worsley mentions nicknames But in Acts 1 and 2, the names look plain. What would happen if those names changed To the ones the crew used day-to-day?"
+      },
+      {
+        "label": "Medium Hint",
+        "text": "Okay, so you rewrote the pairs with the nicknames used. What “one thing” do you see “in common” in each set of two?"
+      },
+      {
+        "label": "Big Hint",
+        "text": "If Green was “Chef” or “Doughballs” and Rickinson was “Ricky” Then the only thing shared would be “C”. Not too tricky!"
+      },
+      {
+        "label": "Solution",
+        "text": "To solve this puzzle, you’ll need the Wuzzle Puzzle page as well as the back of the map with the list of crew nicknames. Worsley mentions nicknames a number of times in his note but uses the actual names of the crew in his list under Act 1 and Act 2. You must find each person’s nickname and rewrite the pairings accordingly, noting the one letter each pair has in common. This should give you:<br><br> <ul><li><b>CHEF/DOUGHBALLS - RICKY</b> (C is shared)</li> <li><b>PRINCE - THE BOSS</b> (E is shared)</li> <li><b>CHIPPY - MACK</b> (C is shared) </li> <li><b>WILL - MICKEY</b> (I is shared)</li> <li><b>ALF - HOLIE</b> (L is shared)</li></ul> This should give you the “new nickname” <b>CECIL. Enter that answer on your solutions page beside the WP icon.</b?"
+      }
+    ]
+  },
+  {
+    "puzzle": "Soup Label",
+    "hints": [
+      {
+        "label": "Nudge",
+        "text": "The outside of this label looks okay at first glance. But some of those words on the underside aren’t by chance."
+      },
+      {
+        "label": "Small Hint",
+        "text": "It seems as though the answer to this puzzle must be written on the underside of the label. Are some of these words written here scrambled?"
+      },
+      {
+        "label": "Medium Hint",
+        "text": "Come to think of it, the outside of the label had Some soups that didn’t sound so bad. I wonder if their letters match With this strange Irish batch?"
+      },
+      {
+        "label": "Big Hint",
+        "text": "If the soups get written in the blanks provided An oval comes round, letters now decided. Then some numbers inform you how to slide it."
+      },
+      {
+        "label": "Solution",
+        "text": "The 5 “Irish” words on the back of the soup can label correspond to the 5 flavours of soup on the front of the label:<br><br><b><ul> <li>PEA SOUP</li> <li>TOMATO SOUP</li> <li>OXTAIL SOUP</li> <li>MOCK TURTLE SOUP</li> <li>CHICKEN SOUP</li></ul></b> <br>The the oval will encircle the letters “SAOUN”. Most of these letters need to be modified by the mathematical symbols at the end of the word. The “S” in PEA SOUP does not need a modification, but the rest do. For example, the “A” in TOMATO SOUP has a (+) OZ written beside it. The front of the label indicates that OZ = 19. If we change the letter “A” (which is the first letter in the alphabet, or #1) by adding “19” to it, we get #20. This letter is “T”. Thus, the oval letters change to: <b>STICK. Enter that answer on your solutions page beside the can icon.</b>"
+      }
+    ]
+  },
+  {
+    "puzzle": "Dog Teams / Map",
+    "hints": [
+      {
+        "label": "Part 1",
+        "parts": [
+          {
+            "label": "Nudge",
+            "text": "The flow card says we’re going back and forth here. The map, to the journal, and the map reappears. Just the map and the journal, that is enough! We’re 5 puzzles in, things are bound to get tough ;)"
+          },
+          {
+            "label": "Small Hint",
+            "text": "There are 4 teams of dogs, 1 in each corner Imagine separating the map into four Quadrants, and noticing something in each part. This might give you a good start."
+          },
+          {
+            "label": "Medium Hint",
+            "text": "“Each team must have 5 dogs for the race to be fair.” And we know that the dogs need to be re-shared Each team has a lead that cannot change Come to think of it, “Bob” is a short name."
+          },
+          {
+            "label": "Big Hint",
+            "text": "If Bob is the lead of Team Number One And his team is located where “Short Corner” is done Could that be a clue? With whom he will run?"
+          },
+          {
+            "label": "Solution",
+            "text": "We know the purpose of this puzzle is to rearrange the dogs on the various teams. And we know the leads must stay the same. The journal page with “INDEX CHART - New dog teams” reveals that step 1 is to observe the “Track Segments [on map].” The segments (in each corner of the map) correspond to the “rules” of the team in that corner. The leads provide an example of that rule.<br><br> Let’s look at BOB on Team 1. The track segment there is called “Short Corner”. And the lead (which cannot change) is “BOB”. We can deduce from this that all dogs with a short name are on the same team (TIM, ROY, SUE, SUB).<br><br> Team 2 corresponds to “Corner 2” and the lead is “HEIGHTS” which contains the number “EIGHT”. All dogs on this team must contain numbers in their name (NINEVAH, OFTEN, LONE RANGER, WENTWORTH).<br><br> Team 3 corresponds to “DOUBLE TROUBLE STRAIGHTAWAY” and the lead is “BUMMER” so we can deduce that the dogs on this team must have a double letter. Therefore the other dogs on this team are (FLUFFY, ELLIOT, SAMMY, ULYSSES).<br><br> The remaining dogs must belong on Team 4. The logic for this team follows the track segment “THE INSIDE LANE”. The lead dog “CHIPS” has the word “HIP” inside. The remaining dogs all have non-number words inside them (S<b>POT</b>S, G<b>RUN</b>TER, D<b>RIP</b>SY, S<b>AND</b>Y)."
+          }
+        ]
+      },
+      {
+        "label": "Part 2",
+        "parts": [
+          {
+            "label": "Small Hint",
+            "text": "The journal has 3 items listed under the index chart title. You’ve completed Part 1, new teams are compiled. Alphabetizing just takes a little while."
+          },
+          {
+            "label": "Medium Hint",
+            "text": "If you’ve got the right dogs, on all the right teams, Then put them in alphabetical order to advance to part 3."
+          },
+          {
+            "label": "Big Hint",
+            "text": "Both the Flow Card and Step 3 seems to say That it’s time to go back to the map for a way To isolate a letter, note the word “index”. Conversations give you lines and letters to check."
+          },
+          {
+            "label": "Solution",
+            "text": "First, be sure you have solved Part 1 of this puzzle. With all the dogs on the correct teams, the new alphabetical order of the teams is:<br><br><ol> <li>1: BOB, ROY, SUB, SUE, TIM</li> <li>2: HEIGHTS, LONE RANGER, NINEVAH, OFTEN, WENTWORTH</li> <li>3: BUMMER, ELLIOT, FLUFFY, SAMMY, ULYSSES </li><li>4: CHIPS, DRIPSY, GRUNTER, SANDY, SPOTS</li></ol><br><br> Now you must return to the map to notice the conversations (there is one conversation in each quadrant of the map).<br><br><ul><li> The conversations have 2 numbers or placements indicated.</li><li> The conversation near Team 1 contains “last” and “first”.</li><li> The conversation near Team 2 contains “3” and “2”.</li><li> The conversation near Team 3 contains “5” and “6”.</li><li> The conversation near Team 4 contains “3” and “7”.</li></ul><br><br> In Episode 1, we learned how to “index” by solving Worsley’s stowaway puzzle. In this puzzle, the title “<b>INDEX</b> CHART” is a clue. For the first team, we would index the “last” dog’s “first” letter which is “T”. Here is the full solution:<br><br><ul><li> 1: BOB, ROY, SUB, SUE, TIM (last dog, first letter = <b>T</b>)</li><li> 2: HEIGHTS, LONE RANGER, NINEVAH, OFTEN, WENTWORTH (3rd dog, 2nd letter = <b>I</b>)</li><li> 3: BUMMER, ELLIOT, FLUFFY, SAMMY, ULYSSES (5th dog, 6th letter = <b>E</b>)</li><li> 4: CHIPS, DRIPSY, GRUNTER, SANDY, SPOTS (3rd dog, 7th letter = <b>R</b>)</li></ul><br><br> Your final solution is <b>TIER. Enter that answer on your solutions page beside the dog icon.</b>"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "puzzle": "Wild’s Winds / Dot Matrix",
+    "hints": [
+      {
+        "label": "Nudge",
+        "text": "Two items, a note that is yellow, and a dot that is green. Each dot is a letter of the alphabet, it would seem?"
+      },
+      {
+        "label": "Small Hint",
+        "text": "With each dot labeled, you turn to the note Where Worsley has tracked, and Wild wrote The directions they traveled. Get out a pencil! Start connecting dots, by 35 and 25 until You get to Day 11, and stand back and see There are some places uncrossed, still free."
+      },
+      {
+        "label": "Medium Hint",
+        "text": "If you travel northwest, then southeast you must start Try the bottom right corner for your movements to chart Step-by-step and the lines are all through, The back of the note has the final clue."
+      },
+      {
+        "label": "Big Hint",
+        "text": "By now you should have 4 uncrossed dots Unscrambling them will tell you lots."
+      },
+      {
+        "label": "Solution",
+        "text": "This puzzle requires you to notice the “A J Q” markings on the green dot matrix. These letters are meant to prompt you to label each dot with a letter of the alphabet. Since there are only 25 dots, Z is unaccounted for and irrelevant.<br><br> With each dot labeled, you can now start charting your course, following Wild’s notes. He tells us via the compass diagram that a movement up/down/left/right is equal to 25 miles. A diagonal movement is equivalent to 35 miles. While you do not know the exact starting spot, there are only a few valid options, and as you follow the course of the movements listed, there is only 1 possible option that allows you to stay within the bounds of the grid.<br><br> Once you have completed tracing your course on the green dot matrix, you should have 4 dots (letters) that have not been crossed through. They are “BHOT” and since the back of the matrix says “Once you find all four, unscramble them” the only intelligible word you can make is <b>BOTH. Enter that answer on your solutions page beside the compass icon.</br>"
+      }
+    ]
+  },
+  {
+    "puzzle": "How do they fit together?",
+    "hints": [
+      {
+        "label": "Nudge",
+        "text": "You got all the solutions?! Wow, look at you go! It’s time to focus your attention below To the grid with 6 clueful arrows. What are they trying to show?"
+      },
+      {
+        "label": "Small Hint",
+        "text": "Enter your solutions, on diagonal lines Find the formation, where they share letters just fine."
+      },
+      {
+        "label": "Medium Hint",
+        "text": "With words all placed, see the symbols by key letters. Those are the pipe ends that fit the ship better. Notice those letters on the engine room wall? Match the pipe symbol to the letter and scrawl!"
+      },
+      {
+        "label": "Big Hint",
+        "text": "If you’ve got all the pipes where they need to go Then read across the room, left to right, and follow the flow. “8L” is how this message begins The ending of the message reveals how you win!"
+      },
+      {
+        "label": "Solution",
+        "text": "In the section “Now, how do they all fit together?” you must enter the 6 solutions on diagonal lines so that the words intersect, like a crossword. The grid should look <a href='#/hint-image?image=MetaPuzzle%20Solution' style='color: lightblue;'>like this</a><br><br> Now, note the symbols beside the letters “O E C L R”. Those symbols correspond to the ends of the 4 punch-out pipes in the envelope. (At this point, the engine room will need to be built according to the top left panel of the envelope interior.) If you fit the pipes into the slots, matching the pipe end symbol to the letter on the engine room, you will have assembled the pipes correctly. Now, if you read the letters along the pipes, from left to right, following the flow of the pipes, you get the values: “8LETTERSAROUNDCENTRE”.<br><br> This phrase is not the final phrase, as it does not make sense with the narrative. However, it is a clue, meant to direct you to the center of the grid. There are 8 letters around the center in a diamond shape, spelling <b>TOTHEICE.<br> This is essentially the order given by Shackleton to his crew as the ship gave way under the pressure of the ice. You can enter this solution in the portal to see what Cousin JJ has to say.</b>"
+      }
+    ]
+  }
+]

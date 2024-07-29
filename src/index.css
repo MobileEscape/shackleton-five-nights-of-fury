@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://use.typekit.net/agc3zeo.css");
+
+@font-face {
+  font-family: frank-worsley;
+  src: url("assets/fonts/FrankWorsley2-Regular.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: king-Edwards;
+  src: url("assets/fonts/King\ Edward.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: king-Edwards-inline;
+  src: url("assets/fonts/King\ Edward\ Basic\ Inline.ttf");
+  font-weight: 700;
+}
+
+.font-sans {
+  font-family: open-sans;
+}
+
+video::cue {
+  font-family: open-sans;
+}
+
+body {
+  overflow: hidden;
+}
+
+@variants responsive {
+  .bg-image-sm {
+    background-image: url("assets/Background_mobile.jpg");
+  }
+
+  .bg-image-lg {
+    background-image: url("assets/Background_desktop.jpg");
+  }
+}
