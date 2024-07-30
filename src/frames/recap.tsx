@@ -12,33 +12,21 @@ const HintImageFrame: FunctionComponent<HintImageProps> = ({}) => {
     <Frame>
       <div className="flex flex-col items-center mt-20 overflow-auto">
         <p className="text-xl my-8 font-frank mx-6 md:mx-16 max-w-[500px] [text-shadow:_0_1px_1px_rgb(0_0_0_/_20%)]">
-          The journey thus far has been one of immense preparation,
-          anticipation, and the ever-present challenge of the Antarctic
-          environment. Our expedition, the Imperial Trans-Antarctic Expedition,
-          set sail with the grand ambition of crossing the Antarctic continent
-          from west to east. This bold endeavor follows my previous expeditions,
-          including the near-miss of reaching the South Pole in 1907 and the
-          subsequent frustration of being beaten to it by Amundsen in 1912.
+          Ernest Shackleton attempted to cross the Antarctic Continent in 1914,
+          but Mother Nature had other plans. Their ship, Endurance, was held
+          fast in the ice and would remain so for the duration of the 1915
+          Antarctic winter. The break-up of the ice that spring would prove
+          fatal to the ship as she was slowly crushed and took on water.
+          Shackleton ordered the crew to the ice where they would regroup in
+          order to make the long trek to reach land and rescue.
           <br />
           <br />
-          Securing the necessary vessels, the Aurora for the Ross Sea party and
-          the Endurance for our Weddell Sea party, required relentless effort
-          and significant financial maneuvering. Despite the outbreak of war, we
-          received the Admiralty's blessing to proceed, reflecting our mission's
-          perceived importance.
-          <br />
-          <br /> We departed from South Georgia after overcoming numerous
-          logistical challenges, including assembling our crew of 27 aboard the
-          Endurance, which involved careful selection from over 5000 applicants.
-          Our journey south has had its challenges already, from battling
-          seasickness to navigating through treacherous ice floes.
-          <br />
-          <br /> As of now, despite our high spirits and perseverance, we find
-          ourselves held fast by the pack ice. The progress towards Vahsel Bay
-          has been thwarted by thick, impenetrable ice, confining us like an
-          almond in a chocolate bar. After years of meticulous planning and
-          months of arduous sailing, this is our current predicament: the
-          Endurance is trapped, unable to advance.
+          The long trek never happened as the ice was impassable to the convoy.
+          The next few months saw the crew drifting on ice, meagerly surviving,
+          and waiting for the ice pack to break up enough to get into the
+          lifeboats. Then, Shackleton planned to head for land and rescue. This
+          was the moment they had long awaited. Now all that was left was to
+          actually accomplish it.
         </p>
         <MainButton
           onClick={() => navigate(-1)}

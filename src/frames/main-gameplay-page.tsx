@@ -2,12 +2,12 @@ import Frame, { FrameProps } from "components/frames/frame";
 import { FunctionComponent, lazy, useState } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
-import Icon1 from "assets/Meta Solution Icon 1.png";
-import Icon2 from "assets/Meta Solution Icon 2.png";
-import Icon3 from "assets/Meta Solution Icon 3.png";
-import Icon4 from "assets/Meta Solution Icon 4.png";
-import Icon5 from "assets/Meta Solution Icon 5.png";
-import Icon6 from "assets/Meta Solution Icon 6.png";
+import Icon1 from "assets/icons/SADDLE.png";
+import Icon2 from "assets/icons/HUMS.png";
+import Icon3 from "assets/icons/HEAR.png";
+import Icon4 from "assets/icons/WRIGHT.png";
+import Icon5 from "assets/icons/EVENT.png";
+import Icon6 from "assets/icons/ICE.png";
 
 import Soup from "assets/Soup.png";
 import SoupLoading from "assets/Soup-Loading.png";
@@ -25,7 +25,7 @@ import Masks from "assets/Masks.png";
 import MasksLoading from "assets/MasksLoading.png";
 
 import Border from "assets/Border-2.png";
-import PuzzleInput from "components/puzzle-input";
+import PuzzleField from "components/puzzle-fields";
 import classNames from "classnames";
 import MetaPuzzle from "components/meta-puzzle";
 
@@ -36,21 +36,31 @@ const Icons = [Icon1, Icon4, Icon2, Icon5, Icon3, Icon6];
 interface MainGameFrame extends FrameProps {}
 
 const answers = [
-  "voted",
-  "their",
-  "cecil",
-  "both",
-  "stick",
-  "tier",
+  "saddle",
+  "wright",
+  "hums",
+  "event",
+  "hear",
+  "ice",
   "totheice",
 ];
+
+const givenLetters = [
+  ["", "", "", "", "", "E"],
+  ["W", "", "", "", "", ""],
+  ["", "", "", "S"],
+  ["", "", "", "", ""],
+  ["", "E", "", ""],
+  ["", "", ""],
+];
+
 const backgroundImage: any = {
-  voted: [Sailors, SailorsLoading],
-  cecil: [Masks, MasksLoading],
-  stick: [Soup, SoupLoading],
-  their: [Beaker, BeakerLoading],
-  both: [Anchor, AnchorLoading],
-  tier: [SledDogs, SledDogsLoading],
+  saddle: [Sailors, SailorsLoading],
+  wright: [Masks, MasksLoading],
+  hums: [Soup, SoupLoading],
+  event: [Beaker, BeakerLoading],
+  hear: [Anchor, AnchorLoading],
+  ice: [SledDogs, SledDogsLoading],
   totheice: [ShipInIce, ShipInIceLoading],
 };
 
@@ -61,6 +71,7 @@ const MainGameFrame: FunctionComponent<MainGameFrame> = ({ index }) => {
   const [visible, setVisible] = useState("hidden bg-black/0 opacity-0");
 
   const changeImage = (answer: string) => {
+    if (bgImage === answer) return;
     setbgImage("");
     setTimeout(() => setbgImage(answer), 500);
   };
@@ -79,7 +90,7 @@ const MainGameFrame: FunctionComponent<MainGameFrame> = ({ index }) => {
 
   return (
     <Frame index={index}>
-      <div className="w-[500px] m-auto mt-[100px] items-center max-w-[90vw]">
+      <div className="w-fit m-auto mt-[100px] items-center max-w-[90vw]">
         <div className="relative   p-4  my-4 rounded-md bg- ">
           <div
             className={classNames(
@@ -122,20 +133,23 @@ const MainGameFrame: FunctionComponent<MainGameFrame> = ({ index }) => {
             {!metaPuzzle ? "Check Puzzle Answers" : "Solve The Meta Puzzle"}
           </h1>
           {!metaPuzzle && (
-            <div className="grid grid-cols-2 grid-rows-3 items-center m-auto justify-center gap-4 my-4 md:my-12 p-4 z-30">
+            <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-3 items-center m-auto justify-center gap-4 my-4 md:my-12 p-4 z-30">
               {Icons.map((x, i) => (
-                <PuzzleInput
-                  changeImage={changeImage}
-                  image={x}
-                  answer={answers[i]}
-                  key={`answer-${i}`}
-                  solvePuzzle={solvePuzzle}
-                />
+                <div className="group flex gap-2">
+                  <PuzzleField
+                    changeImage={changeImage}
+                    givenLetters={givenLetters[i]}
+                    image={x}
+                    answer={answers[i]}
+                    key={`answer-${i}`}
+                    solvePuzzle={solvePuzzle}
+                  />
+                </div>
               ))}
             </div>
           )}
           {metaPuzzle && (
-            <div className="flex flex-col items-center m-auto justify-center gap-4 my-4 md:my-12">
+            <div className="flex flex-col w-fit p-4 items-center m-auto justify-center gap-4 my-4 md:my-12">
               <MetaPuzzle />
             </div>
           )}

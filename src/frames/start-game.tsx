@@ -6,6 +6,7 @@ import ShipInIce from "assets/Ship-in-ice.png";
 import ShipInIceLoading from "assets/Ship-in-ice-loading.png";
 import { AppContext } from "contexts/app";
 import { FunctionComponent, useContext, lazy } from "react";
+import Border from "assets/Border-2.png";
 
 const MainButton = lazy(() => import("components/buttons/main-button"));
 
@@ -18,8 +19,9 @@ const StartGame: FunctionComponent<YourFirstMissionFrameProps> = ({
   const { advance, setPaused } = useContext(AppContext);
   return (
     <Frame index={index}>
-      <div className="relative w-[360px] m-auto mt-[30vh] ">
-        <div className="absolute  w-[500px]   top-0 -left-[25%] transition duration-1000 opacity-30">
+      <div className="relative w-[460px] h-[500px] m-auto mt-[20vh] max-w-[90vw] text-center">
+        <img src={Border} className="absolute  w-full h-full top-0 left-0" />
+        <div className="absolute  w-[500px]   top-0 -left-[25%] transition duration-1000 opacity-20">
           <LazyLoadImage
             src={ShipInIce}
             placeholderSrc={ShipInIceLoading}
@@ -27,7 +29,7 @@ const StartGame: FunctionComponent<YourFirstMissionFrameProps> = ({
             alt=""
           />
         </div>
-        <h1 className="text-center font-kingEdwards text-primary font-semibold text-8xl">
+        <h1 className="relative text-center font-kingEdwards text-primary font-semibold text-7xl z-20 pt-32">
           Are you ready?
         </h1>
         <br />
@@ -37,19 +39,19 @@ const StartGame: FunctionComponent<YourFirstMissionFrameProps> = ({
             onClick={() => navigate("/recap")}
             className="z-30 text-secondary hover:text-primary transition duration-300 cursor-pointer"
           >
-            Episode 1
+            Episode 3
           </a>
           , or:
         </p>
-      </div>
-      <div className="flex-grow basis-0 flex items-center justify-center flex-shrink-0 mt-10 ">
-        <MainButton
-          text="Start Game"
-          onClick={() => {
-            advance();
-            setPaused(false);
-          }}
-        />
+        <div className="flex-grow basis-0 flex items-center justify-center flex-shrink-0 mt-10 ">
+          <MainButton
+            text="Start Game"
+            onClick={() => {
+              advance();
+              setPaused(false);
+            }}
+          />
+        </div>
       </div>
     </Frame>
   );
