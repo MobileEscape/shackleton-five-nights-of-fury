@@ -16,6 +16,7 @@ const OpenningVideo = lazy(
   () => import("frames/videos/openning-video/openning-video")
 );
 const MainGamePlayPage = lazy(() => import("frames/main-gameplay-page"));
+const MetaPuzzlePage = lazy(() => import("frames/meta-puzzle-page"));
 const ClosingVideo = lazy(
   () => import("frames/videos/closing-video/closing-video")
 );
@@ -28,6 +29,7 @@ function App() {
     StartGame,
     OpenningVideo,
     MainGamePlayPage,
+    MetaPuzzlePage,
     ClosingVideo,
     GameCompleteFrame,
   ];
