@@ -36,10 +36,10 @@ body {
 
 @variants responsive {
   .bg-image-sm {
-    background-image: url("assets/Background_mobile.jpg");
+    background-image: url("assets/Background_mobile2.jpg");
   }
 
   .bg-image-lg {
-    background-image: url("assets/Background_desktop.jpg");
+    background-image: url("assets/Background_desktop2.jpg");
   }
 }

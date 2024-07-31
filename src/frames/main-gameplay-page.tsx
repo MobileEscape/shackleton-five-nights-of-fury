@@ -15,20 +15,21 @@ import Icon4 from "assets/icons/WRIGHT.png";
 import Icon5 from "assets/icons/EVENT.png";
 import Icon6 from "assets/icons/ICE.png";
 
-import Soup from "assets/Soup.png";
-import SoupLoading from "assets/Soup-Loading.png";
-import Sailors from "assets/Sailors.png";
-import SailorsLoading from "assets/Sailors-Loading.png";
-import Beaker from "assets/Beaker.png";
-import BeakerLoading from "assets/BeakerLoading.png";
-import SledDogs from "assets/Sled-dogs.png";
-import SledDogsLoading from "assets/Sled-dogs-Loading.png";
-import Anchor from "assets/Anchor.png";
-import AnchorLoading from "assets/AnchorLoading.png";
-import ShipInIce from "assets/Ship-in-ice.png";
+import CastleLoading from "assets/Background Images/Castle-Loading.png";
+import Castle from "assets/Background Images/Castle.png";
+import IcefieldLoading from "assets/Background Images/Icefield-Loading.png";
+import Icefield from "assets/Background Images/Icefield.png";
+import MatchLoading from "assets/Background Images/Match-Loading.png";
+import Match from "assets/Background Images/Match.png";
+import PenguinLoading from "assets/Background Images/Penguin-Loading.png";
+import Penguin from "assets/Background Images/Penguin.png";
+import PolaroidLoading from "assets/Background Images/Polaroid-Loading.png";
+import Polaroid from "assets/Background Images/Polaroid.png";
+import SealLoading from "assets/Background Images/Seal-Loading.png";
+import Seal from "assets/Background Images/Seal.png";
 import ShipInIceLoading from "assets/Ship-in-ice-loading.png";
-import Masks from "assets/Masks.png";
-import MasksLoading from "assets/MasksLoading.png";
+import ShipInIce from "assets/Ship-in-ice.png";
+
 import PuzzleBearing from "components/puzzle-bearings";
 
 import Border from "assets/Border-2.png";
@@ -74,12 +75,12 @@ const givenLetters = [
 ];
 
 const backgroundImage: any = {
-  saddle: [Sailors, SailorsLoading],
-  wright: [Masks, MasksLoading],
-  hums: [Soup, SoupLoading],
-  event: [Beaker, BeakerLoading],
-  hear: [Anchor, AnchorLoading],
-  ice: [SledDogs, SledDogsLoading],
+  saddle: [Seal, SealLoading],
+  wright: [Penguin, PenguinLoading],
+  hums: [Castle, CastleLoading],
+  event: [Polaroid, PolaroidLoading],
+  hear: [Icefield, IcefieldLoading],
+  ice: [Match, MatchLoading],
   totheice: [ShipInIce, ShipInIceLoading],
 };
 
