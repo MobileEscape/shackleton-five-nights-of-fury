@@ -55,7 +55,7 @@ function App() {
           newStep.toString()
         );
         // Starts and stops music at certain steps
-        if (newStep === 2 || newStep === 4 || newStep === 6) {
+        if (newStep === 2 || newStep === 4 || newStep === 5 || newStep === 6) {
           if (music) PlaySound(IntroSound);
         } else {
           FadeOutSound(IntroSound);

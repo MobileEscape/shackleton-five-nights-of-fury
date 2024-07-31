@@ -1,5 +1,11 @@
 import Frame, { FrameProps } from "components/frames/frame";
-import { FunctionComponent, lazy, useContext, useState } from "react";
+import {
+  FunctionComponent,
+  lazy,
+  useContext,
+  useState,
+  useEffect,
+} from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import Icon1 from "assets/icons/SADDLE.png";
@@ -81,6 +87,7 @@ const MainGameFrame: FunctionComponent<MainGameFrame> = ({ index }) => {
   const { advance } = useContext(AppContext);
   const [bgImage, setbgImage] = useState("");
   const [solved, setSolved] = useState(0);
+  const [solvedBearings, setSolveBearings] = useState(0);
   const [visible, setVisible] = useState("hidden bg-black/0 opacity-0");
 
   const changeImage = (answer: string) => {
@@ -89,16 +96,19 @@ const MainGameFrame: FunctionComponent<MainGameFrame> = ({ index }) => {
     setTimeout(() => setbgImage(answer), 500);
   };
 
-  const solvePuzzle = () => {
-    setSolved((prev) => prev + 1);
-
-    if (solved == 5) {
+  useEffect(() => {
+    if (solved == 6) {
       setVisible("");
       setTimeout(() => setVisible("bg-black/80 opacity-100"), 100);
-      setTimeout(() => setVisible("bg-black/0 opacity-0"), 4000);
-      setTimeout(() => advance(), 4700);
     }
-  };
+  }, [solved]);
+
+  useEffect(() => {
+    if (solvedBearings == 6) {
+      setVisible("");
+      setTimeout(() => setVisible("bg-black/80 opacity-100"), 100);
+    }
+  }, [solvedBearings]);
 
   return (
     <Frame index={index}>
@@ -110,15 +120,60 @@ const MainGameFrame: FunctionComponent<MainGameFrame> = ({ index }) => {
               visible
             )}
           >
-            <h1 className="relative z-10 mt-[30vh] text-center font-kingEdwards text-white font-semibold text-5xl md:text-6xl">
-              Well done! Now:
-              <br />
-              1. Fill in the metapuzzle grid.
-              <br />
-              2. Note the pipe icons.
-              <br />
-              3. Deduce the final answer.
-            </h1>
+            {solved == 6 && solvedBearings != 6 ? (
+              <div className="text-center">
+                <h1 className="relative z-10 mt-[30vh] text-center font-kingEdwards text-white font-semibold text-5xl md:text-6xl">
+                  Well done! Now:
+                  <br />
+                  1. Enter answers onto the compass.
+                  <br />
+                  2. Find the bearings.
+                  <br />
+                  3. Deduce the final answer.
+                </h1>
+                <button
+                  onClick={() => setVisible("hidden bg-black/0 opacity-0")}
+                  className=" font-kingEdwards text-white font-semibold text-4xl md:text-5xl my-5 hover:bg-gray-300 border border-white rounded-lg px-2"
+                >
+                  Close
+                </button>
+              </div>
+            ) : solved != 6 && solvedBearings == 6 ? (
+              <div className="text-center">
+                <h1 className="relative z-10 mt-[30vh] text-center font-kingEdwards text-white font-semibold text-5xl md:text-6xl">
+                  {" "}
+                  Well done! Now:
+                  <br />
+                  1. Get all the answers from the previous section.
+                  <br />
+                  2. Enter them onto the compass
+                  <br />
+                  3. Solve the meta puzzle
+                </h1>{" "}
+                <button
+                  onClick={() => setVisible("hidden bg-black/0 opacity-0")}
+                  className=" font-kingEdwards text-white font-semibold text-4xl md:text-5xl my-5 hover:bg-gray-300 border border-white rounded-lg px-2"
+                >
+                  Close
+                </button>
+              </div>
+            ) : (
+              <div className="text-center">
+                <h1 className="relative z-10 mt-[30vh] text-center font-kingEdwards text-white font-semibold text-5xl md:text-6xl">
+                  {" "}
+                  Well done! Now solve the meta puzzle!
+                </h1>{" "}
+                <button
+                  onClick={() => {
+                    setVisible("hidden bg-black/0 opacity-0");
+                    advance();
+                  }}
+                  className=" font-kingEdwards text-white font-semibold text-4xl md:text-5xl my-5 hover:bg-gray-300 border border-white rounded-lg px-2"
+                >
+                  Close
+                </button>
+              </div>
+            )}
           </div>
           <img
             src={Border}
@@ -154,7 +209,7 @@ const MainGameFrame: FunctionComponent<MainGameFrame> = ({ index }) => {
                   image={x}
                   answer={answers[i]}
                   key={`answer-${i}`}
-                  solvePuzzle={solvePuzzle}
+                  solvePuzzle={() => setSolved((prev) => prev + 1)}
                 />
               </div>
             ))}
@@ -172,7 +227,7 @@ const MainGameFrame: FunctionComponent<MainGameFrame> = ({ index }) => {
                   message={messages[i]}
                   answer={bearings[i]}
                   key={`answer-${i}`}
-                  solvePuzzle={solvePuzzle}
+                  solvePuzzle={() => setSolveBearings((prev) => prev + 1)}
                 />
               </div>
             ))}
