@@ -69,7 +69,7 @@ const PuzzleBearing = ({
           className={classNames(
             "font-frank text-2xl md:text-3xl text-nowrap",
             solved ? "text-green-600 " : "text-primary",
-            err ? "text-red-400" : ""
+            err ? "text-red-400 animate-[shake_0.3s_0s_1.5]" : ""
           )}
         >
           {`Day ${index + 1} Bearing:`}
@@ -86,7 +86,9 @@ const PuzzleBearing = ({
             solved
               ? "text-green-600 outline-green-600 border-green-600"
               : "text-primary  border-primary",
-            err ? "text-red-400 outline-red-600" : ""
+            err
+              ? "text-red-400 outline-red-600 animate-[shake_0.3s_0s_1.5]"
+              : ""
           )}
           disabled={solved}
           type="text"
@@ -97,7 +99,7 @@ const PuzzleBearing = ({
         className={classNames(
           "font-frank text-2xl md:text-3xl text-nowrap",
           solved ? "text-green-600 " : "text-primary",
-          err ? "text-red-400" : ""
+          err ? "text-red-400 animate-[shake_0.3s_0s_1.5]" : ""
         )}
       >
         {message}

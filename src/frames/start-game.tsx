@@ -21,7 +21,7 @@ const StartGame: FunctionComponent<YourFirstMissionFrameProps> = ({
     <Frame index={index}>
       <div className="relative w-[460px] h-[500px] m-auto mt-[20vh] max-w-[90vw] text-center">
         <img src={Border} className="absolute  w-full h-full top-0 left-0" />
-        <div className="absolute  w-[500px]   top-0 -left-[25%] transition duration-1000 opacity-20">
+        <div className="absolute object-cover top-0 transition duration-1000 opacity-20">
           <LazyLoadImage
             src={ShipInIce}
             placeholderSrc={ShipInIceLoading}

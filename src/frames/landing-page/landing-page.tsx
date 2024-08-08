@@ -18,8 +18,8 @@ const InitialFrame: FunctionComponent<InitialFrameProps> = ({ index }) => {
   return (
     <Frame index={index}>
       <Suspense>
-        <div className="w-full h-full flex flex-col">
-          <div className="flex-grow basis-0"></div>
+        <div className="w-full h-full flex flex-col overflow-hidden">
+          <div className="mt-32 basis-0 "></div>
           <div>
             <div className="flex justify-center -mt-16">
               <Trapeze
@@ -35,10 +35,10 @@ const InitialFrame: FunctionComponent<InitialFrameProps> = ({ index }) => {
             <div className="bg-primary flex justify-center py-2  ">
               <img className="w-80" src={Logo} loading="lazy" alt=""></img>
             </div>
-            <div className="flex text-center text-xl md:text-3xl justify-center font-mrsEaves my-4  [text-shadow:0px_0px_10px_var(--tw-shadow-color)] shadow-white">
+            <div className="flex text-center text-xl md:text-2xl justify-center font-mrsEaves my-4  [text-shadow:0px_0px_10px_var(--tw-shadow-color)] shadow-white">
               HISTORICAL FICTION <br></br> SERIES
             </div>
-            <div className="relative m-auto -mb-20 left-0 right-0 -top-16 bottom-0  w-[40vh] animate-fade animate-duration-[1000ms] animate-ease-in ">
+            <div className="relative flex-grow m-auto left-0 right-0 -top-16 bottom-0  w-[45vh] animate-fade animate-duration-[1000ms] animate-ease-in ">
               <LazyLoadImage
                 src={ShipInIce}
                 placeholderSrc={ShipInIceLoading}
@@ -49,9 +49,9 @@ const InitialFrame: FunctionComponent<InitialFrameProps> = ({ index }) => {
           </div>
           <div
             onClick={advance}
-            className="flex-grow basis-4 flex items-center justify-center flex-shrink-0 scale-90 "
+            className="absolute  bottom-16 md:bottom-24 w-full flex  justify-center scale-90 "
           >
-            <MainButton text="Start" className="scale-90" />
+            <MainButton text="Start" />
           </div>
         </div>
       </Suspense>

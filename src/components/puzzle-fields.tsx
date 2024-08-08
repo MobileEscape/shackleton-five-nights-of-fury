@@ -1,12 +1,6 @@
 import { useState, useEffect } from "react";
 import classNames from "classnames";
-import {
-  ButtonClickSound,
-  PlaySound,
-  TypingSound,
-  SuccessSound,
-  ErrorSound,
-} from "sounds/sound";
+import { PlaySound, TypingSound, SuccessSound, ErrorSound } from "sounds/sound";
 
 const PuzzleField = ({
   image,
@@ -161,8 +155,12 @@ const PuzzleField = ({
           className={classNames(
             "md:w-12 md:h-12 h-10 w-10 caret-transparent rounded-md ring-2 ring-black z-30 focus:bg-transparent transition ease-in  duration-200 shadow-md shadow-black",
 
-            solved ? "ring-green-400 shadow-green-600" : "",
-            err ? "ring-red-400 shadow-red-600" : ""
+            solved
+              ? "ring-green-400 shadow-green-600 animate-pulse animate-thrice"
+              : "",
+            err
+              ? "ring-red-400 shadow-red-600 decoration-red-600 animate-[shake_0.3s_0s_1.5]"
+              : ""
           )}
         >
           <img src={image} alt="Icon" className="w-[50px]" />
@@ -174,8 +172,12 @@ const PuzzleField = ({
           key={`${answer}-${index + 1}`}
           className={classNames(
             "md:w-8 md:h-12 h-10 w-7 rounded-md caret-transparent ring-2 ring-black focus:outline-secondary selection:bg-transparent bg-white/50 z-20 transition duration-200 ease-in text-center font-frank pt-3 font-semibold md:text-4xl text-3xl justify-center shadow-md shadow-black",
-            solved ? "ring-green-400 shadow-green-600" : "",
-            err ? "ring-red-400 shadow-red-600" : ""
+            solved
+              ? "ring-green-400 shadow-green-600 animate-pulse animate-thrice"
+              : "",
+            err
+              ? "ring-red-400 shadow-red-600 decoration-red-600 animate-[shake_0.3s_0s_1.5]"
+              : ""
           )}
           onClick={(e) => {
             e.currentTarget.select();
