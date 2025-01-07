@@ -20,7 +20,7 @@ const Button: FunctionComponent<ButtonProps> = ({
   return (
     <div className={`relative ${className}`}>
       <div className="relative  hover:child-first:bg-secondary select:bg-transparent rounded-full w-[300px] h-16 group cursor-pointer scale-90">
-        <div className="h-full w-full scale-75 rounded-2xl  md:group-hover:bg-secondary"></div>
+        <div className="h-full w-full scale-75 rounded-2xl bg-white/50  md:group-hover:bg-secondary"></div>
         <h1 className="absolute inset-0 font-mrsEaves flex items-center justify-center text-center text-4xl font-black">
           {text}
         </h1>

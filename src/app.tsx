@@ -1,4 +1,4 @@
-import { useState, lazy, Suspense } from "react";
+import { useState, lazy, Suspense, useEffect } from "react";
 import { Route, HashRouter as Router, Routes } from "react-router-dom";
 import { AppContext } from "contexts/app";
 import { useSound } from "hooks/useSound";
@@ -54,16 +54,19 @@ function App() {
           "furthestVisitedStep",
           newStep.toString()
         );
-        // Starts and stops music at certain steps
-        if (newStep === 2 || newStep === 4 || newStep === 5 || newStep === 6) {
-          if (music) PlaySound(IntroSound);
-        } else {
-          FadeOutSound(IntroSound);
-        }
       }
       return newStep;
     });
   };
+
+  useEffect(() => {
+    // Starts and stops music at certain steps
+    if (step === 4 || step === 7) {
+      if (music) PlaySound(IntroSound);
+    } else {
+      FadeOutSound(IntroSound);
+    }
+  }, [step, setStep]);
 
   return (
     <Router>
