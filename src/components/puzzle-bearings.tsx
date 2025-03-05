@@ -82,7 +82,7 @@ const PuzzleBearing = ({
             e.currentTarget.select();
           }}
           className={classNames(
-            "w-16 md:w-28 border-b-2 rounded-md bg-white/40 text-center text-2xl md:text-3xl md:h-8 h-6 racking-widest uppercase font-normal font-frank pt-3 ",
+            "w-16 md:w-28 border-b-2 rounded-md bg-white/40 text-center text-2xl md:text-3xl md:h-8 h-6 racking-widest uppercase font-normal font-frank  ",
             solved
               ? "text-green-600 outline-green-600 border-green-600"
               : "text-primary  border-primary",

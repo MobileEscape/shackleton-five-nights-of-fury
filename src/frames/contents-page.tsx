@@ -4,26 +4,19 @@ import Button from "components/buttons/inside-button";
 import { AppContext } from "contexts/app";
 import { useNavigate } from "react-router-dom";
 import Border from "assets/Border-3.png";
+import { contents, type Asset } from "assets/data/contents";
 
 const MainButton = lazy(() => import("components/buttons/main-button"));
 const SecondaryButton = lazy(() => import("components/buttons/inside-button"));
 
 interface ContentsFrameProps extends FrameProps {}
 
-export interface Hint {
-  label: string;
-  icon?: string;
-  text?: string;
-  link?: string;
-  parts?: Hint[];
-}
-
-const HintComponent = ({
+const AssetComponent = ({
   value,
   index,
   link,
 }: {
-  value: Hint;
+  value: Asset;
   index: number;
   link: string;
 }) => {
@@ -37,45 +30,6 @@ const HintComponent = ({
     </button>
   );
 };
-
-const hints: Hint[] = [
-  {
-    label: "Map",
-    link: "/our-apologies?index=0",
-  },
-  {
-    label: "Penguin Artwork",
-    link: "/our-apologies?index=1",
-  },
-  {
-    label: "Sea Shanty",
-    link: "/our-apologies?index=2",
-  },
-  {
-    label: "Journal Pages x 5",
-    link: "/our-apologies?index=3",
-  },
-  {
-    label: "Tobacco Paper",
-    link: "/our-apologies?index=4",
-  },
-  {
-    label: "Wuzzle Puzzle",
-    link: "/our-apologies?index=5",
-  },
-  {
-    label: "Compass Wheel",
-    link: "/our-apologies?index=6",
-  },
-  {
-    label: "Wild's Note",
-    link: "/our-apologies?index=6",
-  },
-  {
-    label: "Flow Card",
-    link: "/our-apologies?index=7",
-  },
-];
 
 const ContentsFrame: FunctionComponent<ContentsFrameProps> = ({ index }) => {
   const { advance } = useContext(AppContext);
@@ -94,14 +48,14 @@ const ContentsFrame: FunctionComponent<ContentsFrameProps> = ({ index }) => {
           Check that you have all the items.
         </div>
         <br />
-        <div className="mx-auto flex flex-col items-center w-[97%] h-[380px] md:h-fit">
-          {hints.map((x, i) => (
-            <HintComponent
+        <div className="mx-auto flex flex-col items-center w-[97%]  md:h-fit">
+          {contents.map((x, i) => (
+            <AssetComponent
               key={`content-${x.label}`}
               value={x}
               index={i}
               link={x.link ? x.link : ""}
-            ></HintComponent>
+            ></AssetComponent>
           ))}
         </div>
         <div className=" my-8 scale-90">

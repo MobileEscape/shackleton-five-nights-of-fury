@@ -45,7 +45,7 @@ const JohnsonIsInFrame: FunctionComponent<JohnsonIsInFrameProps> = ({
                   "https://www.amazon.com/review/create-review/?ie=UTF8&channel=glance-detail&asin=B0D23KRFR1"
                 )
               }
-              className="mx-auto w-[300px] mt-10 scale-90"
+              className="mx-auto w-[300px]  scale-90"
               text="Amazon US"
             />
             <MainButton
@@ -54,7 +54,7 @@ const JohnsonIsInFrame: FunctionComponent<JohnsonIsInFrameProps> = ({
                   "https://www.theescapemail.ca/a/review/write?product=shackleton-box-set"
                 )
               }
-              className="mx-auto w-[300px] my-3 scale-90"
+              className="mx-auto w-[300px]  scale-90"
               text="Our Website"
             ></MainButton>
             <MainButton

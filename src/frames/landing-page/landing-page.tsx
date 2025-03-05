@@ -38,7 +38,7 @@ const InitialFrame: FunctionComponent<InitialFrameProps> = ({ index }) => {
             <div className="flex text-center text-xl md:text-2xl justify-center font-mrsEaves my-4  [text-shadow:0px_0px_10px_var(--tw-shadow-color)] shadow-white">
               HISTORICAL FICTION <br></br> SERIES
             </div>
-            <div className="relative opacity-20 flex-grow m-auto left-0 right-0 -top-16 bottom-0  w-[45vh] ">
+            <div className="relative opacity-40 flex-grow m-auto left-0 right-0 -top-16 bottom-0  w-[45vh] ">
               <LazyLoadImage
                 src={ShipInIce}
                 placeholderSrc={ShipInIceLoading}

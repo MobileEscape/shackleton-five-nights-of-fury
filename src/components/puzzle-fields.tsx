@@ -171,7 +171,7 @@ const PuzzleField = ({
           id={`${answer}-${index + 1}`}
           key={`${answer}-${index + 1}`}
           className={classNames(
-            "md:w-8 md:h-12 h-10 w-7 rounded-md caret-transparent ring-2 ring-black focus:outline-secondary selection:bg-transparent bg-white/50 z-20 transition duration-200 ease-in text-center font-frank pt-3 font-semibold md:text-4xl text-3xl justify-center shadow-md shadow-black",
+            "md:w-8 md:h-12 h-10 w-7 rounded-md caret-transparent ring-2 ring-black focus:outline-secondary selection:bg-transparent bg-white/50 z-20 transition duration-200 ease-in text-center font-frank pr-1 font-semibold md:text-4xl text-3xl justify-center shadow-md shadow-black",
             solved
               ? "ring-green-400 shadow-green-600 animate-pulse animate-thrice"
               : "",

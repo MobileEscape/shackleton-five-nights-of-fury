@@ -21,7 +21,7 @@ const ClosingVideo = lazy(
   () => import("frames/videos/closing-video/closing-video")
 );
 const GameCompleteFrame = lazy(() => import("frames/game-complete-frame"));
-const ContentsPageCopy = lazy(() => import("frames/contents-page copy"));
+const ContentsPageCopy = lazy(() => import("frames/contents-page-menu"));
 function App() {
   const frames = [
     LandingPage,

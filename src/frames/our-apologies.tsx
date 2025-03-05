@@ -13,8 +13,10 @@ import PagesLoading from "../assets/contents/Pages-Loading.png";
 import Pages from "../assets/contents/Pages.png";
 import PenguinsLoading from "../assets/contents/Penguins-Loading.png";
 import Penguins from "../assets/contents/Penguins.png";
-import SeasShantyLoading from "../assets/contents/SeasShanty-Loading.png";
-import SeasShanty from "../assets/contents/SeasShanty.png";
+import SeatingChart from "../assets/contents/Seating-Chart.png";
+import SeatingChartLoading from "../assets/contents/Seating-Chart-Loading.png";
+import StoveParts from "../assets/contents/StoveParts.png";
+import StovePartsLoading from "../assets/contents/StoveParts-Loading.png";
 import TobaccoLoading from "../assets/contents/Tobacco-Loading.png";
 import Tobacco from "../assets/contents/Tobacco.png";
 import WildsNoteLoading from "../assets/contents/WildsNote-Loading.png";
@@ -30,7 +32,7 @@ const getHelp = [
     image: Map,
     loading: MapLoading,
     title: "Map",
-    text: `Your envelope should have a map. If you're missing this item please contact <a style="color:darkblue" href="mailto:info@theescapemail.com" target="_blank">info@theescapemail.com</a> and we'll help make it right. In the meantime, you can access a digital version of this item <a style="color:darkblue" href="https://cdn.shopify.com/s/files/1/0601/8855/7506/files/Season_2_-_Episode_1_-_Map_Print.pdf?v=1712940870" target="_blank">here</a> to print and play with.`,
+    text: `Your envelope should have a map. If you're missing this item please contact <a style="color:darkblue" href="mailto:info@theescapemail.com" target="_blank">info@theescapemail.com</a> and we'll help make it right.`,
   },
   {
     image: Penguins,
@@ -39,16 +41,22 @@ const getHelp = [
     text: `Your envelope should have Penguin Artwork. If you're missing this item please contact <a style="color:darkblue" href="mailto:info@theescapemail.com" target="_blank">info@theescapemail.com</a> and we'll help make it right.`,
   },
   {
-    image: SeasShanty,
-    loading: SeasShantyLoading,
-    title: "Sea Shanty",
-    text: `Your envelope should have a Sea Shanty. If you're missing this item please contact <a style="color:darkblue" href="mailto:info@theescapemail.com" target="_blank">info@theescapemail.com</a> and we'll help make it right.`,
+    image: SeatingChart,
+    loading: SeatingChartLoading,
+    title: "Seating Chart",
+    text: `Your envelope should have a Seating Chart. If you're missing this item please contact <a style="color:darkblue" href="mailto:info@theescapemail.com" target="_blank">info@theescapemail.com</a> and we'll help make it right.`,
+  },
+  {
+    image: StoveParts,
+    loading: StovePartsLoading,
+    title: "Stove Parts x 4",
+    text: `Your envelope should have a 4 Stove Parts. If you're missing any of them please contact <a style="color:darkblue" href="mailto:info@theescapemail.com" target="_blank">info@theescapemail.com</a> and we'll help make it right.`,
   },
   {
     image: Pages,
     loading: PagesLoading,
     title: "Journal Pages x 5",
-    text: `Your envelope should have 5 Journal Pages. If you're missing this item please contact <a style="color:darkblue" href="mailto:info@theescapemail.com" target="_blank">info@theescapemail.com</a> and we'll help make it right. In the meantime, you can access a digital version of this item <a style="color:darkblue" href="https://cdn.shopify.com/s/files/1/0601/8855/7506/files/Shackleton_-_Epsiode_1_-_Narrative_artwork_only_outlined.pdf?v=1712941038" target="_blank">here</a> to print and play with.`,
+    text: `Your envelope should have 5 Journal Pages. If you're missing this item please contact <a style="color:darkblue" href="mailto:info@theescapemail.com" target="_blank">info@theescapemail.com</a> and we'll help make it right.`,
   },
   {
     image: Tobacco,
