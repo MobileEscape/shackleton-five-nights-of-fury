@@ -28,7 +28,7 @@ const Frame: FunctionComponent<FrameProps> = ({
   return (
     <div
       className={classNames(
-        "h-[100dvh] w-full  md:bg-image-lg  bg-image-sm fixed left-0 top-0 bg-center bg-cover select-none overflow-auto",
+        "h-[100dvh] w-full  md:bg-image-lg  bg-image-sm fixed left-0 top-0 bg-center bg-cover select-none overflow-auto overflow-x-hidden",
         className?.toString(),
         step !== index && "invisible pointer-events-none"
       )}

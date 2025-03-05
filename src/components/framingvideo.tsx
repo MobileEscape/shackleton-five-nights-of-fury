@@ -62,11 +62,12 @@ const OctagonVideo: FunctionComponent<OctagonVideoProps> = ({
         <Controls
           className={classNames("transition-[margin] mt-7", {
             "mb-[-60px]": !showControls,
-            "mb-0": showControls,
+            "mb-5": showControls,
           })}
           state={state}
           controls={controls}
           showSubtitles={showSubtitles}
+          onClick={() => setShowControls((prev) => !prev)}
           toggleSubtitles={() => setShowSubtitles((prev) => !prev)}
         ></Controls>
       </div>

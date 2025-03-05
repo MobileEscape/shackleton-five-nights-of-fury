@@ -61,8 +61,8 @@ function App() {
 
   useEffect(() => {
     // Starts and stops music at certain steps
-    if (step === 4 || step === 7) {
-      if (music) PlaySound(IntroSound);
+    if (step === 4 || step === 5 || step === 7) {
+      if (music && !IntroSound.playing()) PlaySound(IntroSound);
     } else {
       FadeOutSound(IntroSound);
     }

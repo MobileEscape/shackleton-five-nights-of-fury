@@ -28,8 +28,17 @@ const JohnsonIsInFrame: FunctionComponent<JohnsonIsInFrameProps> = ({
               className="absolute max-w-[90vw] w-full h-full top-0 right-0 "
             />
             <p className="relative z-10 text-wrap text-3xl my-8 font-mrsEaves mx-2">
-              Share your thoughts, review us on:
+              Share your thoughts, review the game on:
             </p>
+            <MainButton
+              onClick={() =>
+                window.open(
+                  "https://www.amazon.ca/review/create-review/?ie=UTF8&channel=glance-detail&asin=B0D23KRFR1"
+                )
+              }
+              className="mx-auto w-[300px] mt-10 scale-90"
+              text="Amazon CA"
+            />
             <MainButton
               onClick={() =>
                 window.open(
@@ -37,17 +46,26 @@ const JohnsonIsInFrame: FunctionComponent<JohnsonIsInFrameProps> = ({
                 )
               }
               className="mx-auto w-[300px] mt-10 scale-90"
-              text="Amazon"
+              text="Amazon US"
             />
             <MainButton
               onClick={() =>
                 window.open(
-                  "https://www.theescapemail.com/a/review/write?product=7956684144834"
+                  "https://www.theescapemail.ca/a/review/write?product=shackleton-box-set"
                 )
               }
               className="mx-auto w-[300px] my-3 scale-90"
               text="Our Website"
             ></MainButton>
+            <MainButton
+              onClick={() =>
+                window.open(
+                  "https://boardgamegeek.com/boardgame/427073/the-shackleton-series-interactive-puzzle-adventure"
+                )
+              }
+              className="mx-auto w-[300px] scale-90"
+              text="BoadGameGeek"
+            />
             <MainButton
               onClick={() => setModalOpen(false)}
               className="mx-auto w-[300px] scale-75 mt-5 "
@@ -61,46 +79,36 @@ const JohnsonIsInFrame: FunctionComponent<JohnsonIsInFrameProps> = ({
               src={Border}
               className="absolute max-w-[90vw] w-full h-full top-0 left-0 z-0 "
             />
-            <p className="relative z-10 text-xl my-8 font-frank mx-6 md:mx-16">
-              My new mission is clear. I know what I must do,{" "}
-              <b>eight hundred miles rescure the crew!</b>.
-            </p>
-            <p className="relative z-10 text-3xl my-8 font-mrsEaves mx-6 md:mx-16">
-              {`You have successfully completed the fourth episode of the Shackleton Series! Your time was: ${`0${hours}`.slice(
+            <p className="relative text-2xl my-8 font-mrsEaves mx-3 md:mx-16 z-10">
+              {`You have successfully completed Episode 4 of the Shackleton Series! Your time was: ${`0${hours}`.slice(
                 -2
               )}:${`0${minutes}`.slice(-2)}:${`0${seconds}`.slice(-2)} `}
             </p>
 
-            <DinText
-              className="relative z-10 text-[26px] my-4 mb-10 mx-4 md:mx-16"
-              dangerouslySetInnerHTML={{
-                __html: `Liking the series so far? Please consider leaving a review. `,
-              }}
-            ></DinText>
+            <p className="relative text-wrap text-3xl my-4 font-mrsEaves mx-2 z-10">
+              Share your thoughts, review the game on:
+            </p>
             <MainButton
               onClick={() => setModalOpen(true)}
-              className="mx-auto my-2 w-[300px] scale-90"
+              className="mx-auto  w-[300px] scale-75"
               text="Review"
             />
             <MainButton
               onClick={() => window.open("http://theescapemail.com")}
-              className="mx-auto my-2 w-[300px] scale-90"
+              className="mx-auto  w-[300px] scale-75"
               text="Shop"
             />
 
-            <p className="relative text-2xl mt-6 px-4 z-30 font-mrsEaves mx-4">
-              Did you know that the plot of this episode is based on a true
-              story?
-            </p>
             <p className="relative text-2xl mb-6 px-4 z-30 font-mrsEaves mx-4">
               Check how historically accurate this episode is{" "}
               <a
-                href="https://www.theescapemail.com/pages/shackleton-ep1-historicity"
+                href="https://www.theescapemail.com/pages/shackleton-ep4-historicity"
                 target="_blank"
                 className="z-30 text-secondary hover:text-primary transition duration-300"
               >
-                here.
+                here
               </a>
+              .
             </p>
           </div>
         )}
