@@ -1,6 +1,6 @@
 import { FrameProps } from "components/frames/frame";
 import { FunctionComponent, lazy, Suspense } from "react";
-import Video from "assets/videos/EP1 Intro.mp4";
+import Video from "assets/videos/Episode 4 Intro.mp4";
 const VideoFrame = lazy(() => import("components/frames/video-frame"));
 
 interface EfOneFrameProps extends FrameProps {}

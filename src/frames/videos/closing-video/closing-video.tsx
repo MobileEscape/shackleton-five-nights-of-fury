@@ -1,7 +1,7 @@
 import { FrameProps } from "components/frames/frame";
 import VideoFrame from "components/frames/video-frame";
 import { FunctionComponent } from "react";
-import Video from "assets/videos/EP1 Outro.mp4";
+import Video from "assets/videos/Episode 4 Outro.mp4";
 
 interface EfTwoFrameProps extends FrameProps {}
 

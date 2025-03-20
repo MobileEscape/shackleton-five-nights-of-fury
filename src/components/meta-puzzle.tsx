@@ -186,7 +186,7 @@ const MetaPuzzle = () => {
               id={`${answer}-${index + 1}`}
               key={`${answer}-${index + 1}`}
               className={classNames(
-                "md:w-8 md:h-12 h-10 w-7 rounded-md caret-transparent ring-2 ring-black focus:outline-secondary selection:bg-transparent bg-white/50 z-20 transition duration-200 ease-in text-center font-frank pt-3 font-semibold md:text-4xl text-3xl justify-center shadow-md shadow-black",
+                "md:w-8 md:h-12 h-10 w-7 rounded-md caret-transparent ring-2 ring-black focus:outline-secondary selection:bg-transparent bg-white/50 z-20 transition duration-200 ease-in font-frank  font-semibold md:text-4xl text-3xl pl-1 shadow-md shadow-black",
                 solved ? "ring-green-400 shadow-green-600" : "",
                 err ? "ring-red-400 shadow-red-600" : ""
               )}
@@ -211,7 +211,7 @@ const MetaPuzzle = () => {
               id={`${answer}-${index + 6}`}
               key={`${answer}-${index + 6}`}
               className={classNames(
-                "md:w-8 md:h-12 h-10 w-7 rounded-md caret-transparent ring-2 ring-black focus:outline-secondary selection:bg-transparent bg-white/50 z-20 transition duration-200 ease-in text-center font-frank pt-3 font-semibold md:text-4xl text-3xl justify-center shadow-md shadow-black",
+                "md:w-8 md:h-12 h-10 w-7 rounded-md caret-transparent ring-2 ring-black focus:outline-secondary selection:bg-transparent bg-white/50 z-20 transition duration-200 ease-in font-frank  font-semibold md:text-4xl text-3xl pl-1 shadow-md shadow-black",
                 solved ? "ring-green-400 shadow-green-600" : "",
                 err ? "ring-red-400 shadow-red-600" : ""
               )}
@@ -236,7 +236,7 @@ const MetaPuzzle = () => {
               id={`${answer}-${index + 13}`}
               key={`${answer}-${index + 13}`}
               className={classNames(
-                "md:w-8 md:h-12 h-10 w-7 rounded-md caret-transparent ring-2 ring-black focus:outline-secondary selection:bg-transparent bg-white/50 z-20 transition duration-200 ease-in text-center font-frank pt-3 font-semibold md:text-4xl text-3xl justify-center shadow-md shadow-black",
+                "md:w-8 md:h-12 h-10 w-7 rounded-md caret-transparent ring-2 ring-black focus:outline-secondary selection:bg-transparent bg-white/50 z-20 transition duration-200 ease-in font-frank  font-semibold md:text-4xl text-3xl pl-1 shadow-md shadow-black",
                 solved ? "ring-green-400 shadow-green-600" : "",
                 err ? "ring-red-400 shadow-red-600" : ""
               )}
@@ -261,7 +261,7 @@ const MetaPuzzle = () => {
               id={`${answer}-${index + 18}`}
               key={`${answer}-${index + 18}`}
               className={classNames(
-                "md:w-8 md:h-12 h-10 w-7 rounded-md caret-transparent ring-2 ring-black focus:outline-secondary selection:bg-transparent bg-white/50 z-20 transition duration-200 ease-in text-center font-frank pt-3 font-semibold md:text-4xl text-3xl justify-center shadow-md shadow-black",
+                "md:w-8 md:h-12 h-10 w-7 rounded-md caret-transparent ring-2 ring-black focus:outline-secondary selection:bg-transparent bg-white/50 z-20 transition duration-200 ease-in font-frank  font-semibold md:text-4xl text-3xl pl-1 shadow-md shadow-black",
                 solved ? "ring-green-400 shadow-green-600" : "",
                 err ? "ring-red-400 shadow-red-600" : ""
               )}
@@ -286,7 +286,7 @@ const MetaPuzzle = () => {
               id={`${answer}-${index + 24}`}
               key={`${answer}-${index + 24}`}
               className={classNames(
-                "md:w-8 md:h-12 h-10 w-7 rounded-md caret-transparent ring-2 ring-black focus:outline-secondary selection:bg-transparent bg-white/50 z-20 transition duration-200 ease-in text-center font-frank pt-3 font-semibold md:text-4xl text-3xl justify-center shadow-md shadow-black",
+                "md:w-8 md:h-12 h-10 w-7 rounded-md caret-transparent ring-2 ring-black focus:outline-secondary selection:bg-transparent bg-white/50 z-20 transition duration-200 ease-in font-frank  font-semibold md:text-4xl text-3xl pl-1 shadow-md shadow-black",
                 solved ? "ring-green-400 shadow-green-600" : "",
                 err ? "ring-red-400 shadow-red-600" : ""
               )}
@@ -311,7 +311,7 @@ const MetaPuzzle = () => {
               id={`${answer}-${index + 27}`}
               key={`${answer}-${index + 27}`}
               className={classNames(
-                "md:w-8 md:h-12 h-10 w-7 rounded-md caret-transparent ring-2 ring-black focus:outline-secondary selection:bg-transparent bg-white/50 z-20 transition duration-200 ease-in text-center font-frank pt-3 font-semibold md:text-4xl text-3xl justify-center shadow-md shadow-black",
+                "md:w-8 md:h-12 h-10 w-7 rounded-md caret-transparent ring-2 ring-black focus:outline-secondary selection:bg-transparent bg-white/50 z-20 transition duration-200 ease-in font-frank  font-semibold md:text-4xl text-3xl pl-1 shadow-md shadow-black",
                 solved ? "ring-green-400 shadow-green-600" : "",
                 err ? "ring-red-400 shadow-red-600" : ""
               )}
