@@ -60,6 +60,12 @@ function App() {
   };
 
   useEffect(() => {
+    if (search.get("hints") == "true") {
+      setHintsOpen(true);
+    }
+  }, []);
+
+  useEffect(() => {
     // Starts and stops music at certain steps
     if (step === 4 || step === 5 || step === 7) {
       if (music && !IntroSound.playing()) PlaySound(IntroSound);
@@ -96,7 +102,7 @@ function App() {
             element={frames
               .slice(0, furthestVisitedStep + 3)
               .map((Frame, index) => (
-                <Suspense fallback={<LoadingSpinner />}>
+                <Suspense key={`frame-${index}`} fallback={<LoadingSpinner />}>
                   <Frame key={`frame-${index}`} index={index}></Frame>
                 </Suspense>
               ))}
