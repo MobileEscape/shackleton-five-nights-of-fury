@@ -1,232 +1,319 @@
 [
   {
-    "puzzle": "Invitation",
-    "hints": [
-      {
-        "label": "Part 1",
-        "parts": [
-          {
-            "label": "Nudge",
-            "text": "As the trusty flow card seems to indicate, Three bubbles (two assets) you will need to assimilate. See how one of the assets has front and back? Great!"
-          },
-          {
-            "label": "Small Hint",
-            "text": "If - aboard a ship - the time you wish to tell Then you will surely need a schedule of the bells One of the tricks is that the signals share a meaning Context is key if its the truth you’ll be gleaning"
-          },
-          {
-            "label": "Medium Hint",
-            "text": "The invitation you must scour How many bells at dinner hour? 6 bells means the time is 1 of 3 options 7:00 seems like the best of decisions Add to that observation when solstice ends 8 bells likely means midnight is your friend"
-          },
-          {
-            "label": "Big Hint",
-            "text": "You’re getting very close to scheduling the festivities Dinner and solstice give you a degree of certainty Each takes place at 7 pm and midnight, respectively Can you slot in the other times accordingly?"
-          },
-          {
-            "label": "Solution",
-            "text": "To figure out the actual times of the Mid-Winter’s Day Celebration, you must infer the time from the nature of the events. In other words, which of the 3 possible times are indicated by the bells (6 possible times if you include AM and PM)? Dinner is marked as 6 bells on the invitation. We see from the Bell Schedule in the journal pages that 6 bells can either mean 3, 7, or 11 and can be either AM or PM. We know that dinner is usually a PM activity, and that it is unlikely to take place at 3pm or 11pm. Furthermore, we observe that the solstice ends at 8 bells. A solstice is introduced at the start of a day and ends at the end of a day - 12 midnight. Therefore, with dinner at 7 PM and solstice end at 12 AM, we can reasonably infer the following: <ul><li><b>6PM </b>(“Guess Who?” Game)</li> <li><b>7PM </b>(Dinner Hour)</li> <li><b>9PM</b> (Dance Party and Election)</li> <li><b>11PM/</b> (Toasting, Speeches and Riddles)</li> <li><b>12AM</b> (Mid-Winter Solstice Ends)</li></ul>"
-          }
-        ]
-      },
-      {
-        "label": "Part 2",
-        "parts": [
-          {
-            "label": "Nudge",
-            "text": "To figure out the invitation’s second step Ensure the specific times are set."
-          },
-          {
-            "label": "Small Hint",
-            "text": "Using times we’ve deduced Ensure the back of the invitation is used"
-          },
-          {
-            "label": "Medium Hint",
-            "text": "The first time that we can see Is 6 PM, pointing down to “V”"
-          },
-          {
-            "label": "Big Hint",
-            "text": "Follow the logic to see where to go 7 PM moves over to an “O”"
-          },
-          {
-            "label": "Solution",
-            "text": "First ensure you have solved Step 1. Using the schedule you have determined to be: <ul><li><b>6PM </b>(“Guess Who?” Game)</li> <li><b>7PM </b>(Dinner Hour)</li> <li><b>9PM</b> (Dance Party and Election)</li> <li><b>11PM/</b> (Toasting, Speeches and Riddles)</li> <li><b>12AM</b> (Mid-Winter Solstice Ends)</li></ul> You can now find those locations on the circles on the back of the invitation. The top circle is marked as “AM” and the bottom as “PM”. The first 4 times are PM times. These give us the letters “VOTE” and the AM clock at 12 indicates “D” so therefore the answer to this puzzle is <b>VOTED. Enter that answer on your solutions page beside the 22 icon.</b>"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "puzzle": "Plankton Painting",
-    "hints": [
-      {
-        "label": "Nudge",
-        "text": "Front and back of the painting, that’s all you need. Everything to solve on two sides, you’ll see."
-      },
-      {
-        "label": "Small Hint",
-        "text": "You might get this one by reading the note on the back. Or maybe you think the plankton look a little out of whack?"
-      },
-      {
-        "label": "Medium Hint",
-        "text": "On all 4 sides, the plankton seem to extend. I wonder why Marston never painted the legs’ ends?"
-      },
-      {
-        "label": "Big Hint",
-        "text": "The clue on the back mentions something round. If you wrap the painting 2 ways, 2 words you have now found. The two words are part of 3 in English, all with the same sound."
-      },
-      {
-        "label": "Solution",
-        "text": "Marston’s painting depicts Clark’s test tube. A test tube is round. If you wrap the painting into a cylinder (first one way, then the other) you will observe that the plankton legs create words. The words are “THERE” and “THEY’RE”. Which of the three is missing? There are three words in English that all sound the same. The missing word is <b>“THEIR”. Enter that answer on your solutions page beside the plankton icon.</b>"
-      }
-    ]
-  },
-  {
     "puzzle": "Wuzzle Puzzle",
     "hints": [
       {
-        "label": "Nudge",
-        "text": "Worsley is back with more exercise for your brain! Seems like the crew loves to play games And act! In fact, there are two Acts listed. It’s all on the back, in case you missed it."
-      },
-      {
         "label": "Small Hint",
-        "text": "Multiple times Worsley mentions nicknames But in Acts 1 and 2, the names look plain. What would happen if those names changed To the ones the crew used day-to-day?"
+        "text": "Reading each phase aloud, Creates a curious, funny sound. Listen carefully for a noun, Search all contents; they’ll be found! Czar Dink An"
       },
       {
-        "label": "Medium Hint",
-        "text": "Okay, so you rewrote the pairs with the nicknames used. What “one thing” do you see “in common” in each set of two?"
+        "label": "Czar Dink An",
+        "parts": [
+          {
+            "label": "Big Hint",
+            "text": "An image of what you seek is printed on the envelope. Personally, I’d rather eat a bar of soap."
+          },
+
+          {
+            "label": "Solution",
+            "text": "Sardine Can. The “S” is the first letter in the 6-letter word for this puzzle solution."
+          }
+        ]
+      },
+
+      {
+        "label": "Lie Yiff Bout",
+        "parts": [
+          {
+            "label": "Big Hint",
+            "text": "Where this whole episode takes place is worth a note. Good thing these trusty vessels were able to float."
+          },
+          {
+            "label": "Solution",
+            "text": "Lifeboat. The “A” is boxed and becomes the second letter in the 6-letter word for this puzzle solution."
+          }
+        ]
       },
       {
-        "label": "Big Hint",
-        "text": "If Green was “Chef” or “Doughballs” and Rickinson was “Ricky” Then the only thing shared would be “C”. Not too tricky!"
+        "label": "Buoy Ant Why Yelled",
+        "parts": [
+          {
+            "label": "Big Hint",
+            "text": "To find this reference, you don’t need to look far. The back of Wuzzle’s note shows you where they are."
+          },
+          {
+            "label": "Solution",
+            "text": "Point Wild. The “D” is boxed and becomes the third letter in the 6-letter word for this puzzle solution."
+          }
+        ]
+      },
+      {
+        "label": "Serge Kick Cull Panned Edge",
+        "parts": [
+          {
+            "label": "Big Hint",
+            "text": "A first aid kit can be a handy thing. What’s displayed on the envelope is not a sling."
+          },
+          {
+            "label": "Solution",
+            "text": "Surgical Bandage. The “D” is boxed and becomes the fourth letter in the 6-letter word for this puzzle solution."
+          }
+        ]
+      },
+      {
+        "label": "Interrance Clay Sure",
+        "parts": [
+          {
+            "label": "Big Hint",
+            "text": "The large map shows some chunks of ice. From Elephant Island this piece did slice."
+          },
+          {
+            "label": "Solution",
+            "text": "Endurance Glacier. The “L” is boxed and becomes the fifth letter in the 6-letter word for this puzzle solution. (Check historicity for more info about this location.)"
+          }
+        ]
+      },
+      {
+        "label": "Shins Trapping Gwen",
+        "parts": [
+          {
+            "label": "Big Hint",
+            "text": "In Shackleton’s journal, he tried his hand at some art. Identifying the species is an important part."
+          },
+          {
+            "label": "Solution",
+            "text": "Chinstrap Penguin. The “E” is boxed and becomes the sixth letter in the 6-letter word for this puzzle solution."
+          }
+        ]
       },
       {
         "label": "Solution",
-        "text": "To solve this puzzle, you’ll need the Wuzzle Puzzle page as well as the back of the map with the list of crew nicknames. Worsley mentions nicknames a number of times in his note but uses the actual names of the crew in his list under Act 1 and Act 2. You must find each person’s nickname and rewrite the pairings accordingly, noting the one letter each pair has in common. This should give you:<br><br> <ul><li><b>CHEF/DOUGHBALLS - RICKY</b> (C is shared)</li> <li><b>PRINCE - THE BOSS</b> (E is shared)</li> <li><b>CHIPPY - MACK</b> (C is shared) </li> <li><b>WILL - MICKEY</b> (I is shared)</li> <li><b>ALF - HOLIE</b> (L is shared)</li></ul> This should give you the “new nickname” <b>CECIL. Enter that answer on your solutions page beside the WP icon.</b?"
+        "parts": [
+          {
+            "label": "Solution",
+            "text": "By sounding out each of the six phrases, a thematically relevant noun can be derived from each. Every solution has one character with a box around it ☐. You’ll use all six of these characters in the order they are displayed to spell the word SADDLE."
+          }
+        ]
       }
     ]
   },
   {
-    "puzzle": "Soup Label",
+    "puzzle": "Primus Stove",
     "hints": [
       {
-        "label": "Nudge",
-        "text": "The outside of this label looks okay at first glance. But some of those words on the underside aren’t by chance."
+        "label": "PART 1 - Assemble the Stove",
+        "parts": [
+          {
+            "label": "Small Hint",
+            "text": "The different sizes of the slits and tabs are no mistake. Connect them correctly and a stove you shall make."
+          },
+          {
+            "label": "Big Hint",
+            "text": "The back of Wild’s note has a handy diagram. Follow it closely to ace this exam. See it assembled. Shoot a video assembling it and pointing out the essential parts."
+          },
+          {
+            "label": "See it Assembled",
+            "text": "<a href='#/hint-image?image=StoveBuild' style='color: lightblue;'>Click here to see the aseembly video</a>."
+          }
+        ]
       },
       {
-        "label": "Small Hint",
-        "text": "It seems as though the answer to this puzzle must be written on the underside of the label. Are some of these words written here scrambled?"
-      },
-      {
-        "label": "Medium Hint",
-        "text": "Come to think of it, the outside of the label had Some soups that didn’t sound so bad. I wonder if their letters match With this strange Irish batch?"
-      },
-      {
-        "label": "Big Hint",
-        "text": "If the soups get written in the blanks provided An oval comes round, letters now decided. Then some numbers inform you how to slide it."
-      },
-      {
-        "label": "Solution",
-        "text": "The 5 “Irish” words on the back of the soup can label correspond to the 5 flavours of soup on the front of the label:<br><br><b><ul> <li>PEA SOUP</li> <li>TOMATO SOUP</li> <li>OXTAIL SOUP</li> <li>MOCK TURTLE SOUP</li> <li>CHICKEN SOUP</li></ul></b> <br>The the oval will encircle the letters “SAOUN”. Most of these letters need to be modified by the mathematical symbols at the end of the word. The “S” in PEA SOUP does not need a modification, but the rest do. For example, the “A” in TOMATO SOUP has a (+) OZ written beside it. The front of the label indicates that OZ = 19. If we change the letter “A” (which is the first letter in the alphabet, or #1) by adding “19” to it, we get #20. This letter is “T”. Thus, the oval letters change to: <b>STICK. Enter that answer on your solutions page beside the can icon.</b>"
+        "label": "PART 2 - Align the Stove",
+        "parts": [
+          {
+            "label": "Is your Stove Assembled?",
+            "text": "Make sure your stove is assembled correctly, <a href='#/hint-image?image=StoveBuild' style='color: lightblue;'>click here to see the aseembly video</a>."
+          },
+          {
+            "label": "Nudge",
+            "text": "There are lots of different markings and pieces to take note of. Be sure to look closely and investigate them all. Misalignment or incorrect placement may be your downfall. Can you spot a letter through the holes when you look from above?"
+          },
+          {
+            "label": "Small Hint",
+            "text": "One scratch, two scratches, three, and four. Matching scratches on the stove’s pillar core. The envelope shows stains and scratches on a plate. Align the arrows on the ring and pillar to cooperate."
+          },
+          {
+            "label": "Medium Hint",
+            "text": "Align the arrow on the stove ring to the pillar’s single scratch. Now place the stove over the plate scratch that will match. Notice the different sizes of slit on the plate? Align the stove so each unique leg will fit great."
+          },
+          {
+            "label": "Big Hint",
+            "text": "All that is left is to look down through the hole. On the single scratch placement, seeing an “H” is the goal. Now rotate the ring to align with two scratches. Move the stove to the new placement that matches."
+          },
+          {
+            "label": "Solution",
+            "text": "<ol><li>(1) Turn the ring and aligning it to a scratch on the stove pillar</li><br/> <li>(2) place the stove on top of the matching plate scratch so that the legs of the stove fit in the slits of the envelope</li><br/> <li>(3) look down through the stove holes at the most visible letter.</li><br/> <li>(4) repeat the above steps 3 more times to get the word: “HUMS”.</li><ol><br/> <a href='#/hint-image?image=StoveSolution' style='color: lightblue;'>Watch this video</a> for a full demonstration of the solution."
+          }
+        ]
       }
     ]
   },
   {
-    "puzzle": "Dog Teams / Map",
+    "puzzle": "Penguin Sketches",
     "hints": [
       {
-        "label": "Part 1",
+        "label": "Small Hint",
+        "text": "Though Shackleton had many talents, he wasn’t known to sketch. If you squint your eyes, his artwork is less of a stretch."
+      },
+      {
+        "label": "Medium Hint",
+        "text": "There is more to these penguins than what meets the eye. If you hold them at a distance a word you might spy."
+      },
+      {
+        "label": "Big Hint",
+        "text": "You’ll need to look at this art from another perspective. Seeing the penguins spell a word is your objective. An “H” is what the first two penguins combine to create. What letters do the other penguins emulate?"
+      },
+      {
+        "label": "Solution",
+        "text": "At the top of page 33, you’ll see sketches of Chinstrap Penguins. The dark portions of the penguins act as “shadows” or negative space to each letter that is being depicted. If you adjust your perspective by either squinting, or moving the paper farther away, you should be able to see the word “HEAR” spelled out in negative space."
+      }
+    ]
+  },
+  {
+    "puzzle": "Seating Arrangement Chart",
+    "hints": [
+      {
+        "label": "PART 1 - Rearranging the Crew",
         "parts": [
           {
             "label": "Nudge",
-            "text": "The flow card says we’re going back and forth here. The map, to the journal, and the map reappears. Just the map and the journal, that is enough! We’re 5 puzzles in, things are bound to get tough ;)"
+            "text": "You’ll need the 6x6 grid and boats on the map back. Imagine each letter in the boat is a specific chap. They can move around, but never sit on each other's lap. Move the crew properly, and it’ll all be a snap. Ignore the diamonds for now, but know they’re not a trap."
           },
           {
             "label": "Small Hint",
-            "text": "There are 4 teams of dogs, 1 in each corner Imagine separating the map into four Quadrants, and noticing something in each part. This might give you a good start."
+            "text": "Pay careful attention to which boat is which. The order of the photos experienced a switch. Each boat abides by a unique specific “rule”. If you mix them up you’ll be stuck in a puzzling whirlpool."
           },
           {
             "label": "Medium Hint",
-            "text": "“Each team must have 5 dogs for the race to be fair.” And we know that the dogs need to be re-shared Each team has a lead that cannot change Come to think of it, “Bob” is a short name."
+            "text": "Notice on the grid a pre-filled “H” near the start? But then on the corresponding boats a “W” is in that place! Now it’s time to do your puzzling part. Find an “H” elsewhere in the Caird and why it's in a new space."
           },
           {
             "label": "Big Hint",
-            "text": "If Bob is the lead of Team Number One And his team is located where “Short Corner” is done Could that be a clue? With whom he will run?"
+            "text": "On the Stancomb Wills, “I” and “G” are at the front. Flipping places with “E” and “A” would be quite the stunt. Finally, we need to address the Dudley Docker. Swapping places left and right shouldn’t be much of a shocker."
           },
           {
             "label": "Solution",
-            "text": "We know the purpose of this puzzle is to rearrange the dogs on the various teams. And we know the leads must stay the same. The journal page with “INDEX CHART - New dog teams” reveals that step 1 is to observe the “Track Segments [on map].” The segments (in each corner of the map) correspond to the “rules” of the team in that corner. The leads provide an example of that rule.<br><br> Let’s look at BOB on Team 1. The track segment there is called “Short Corner”. And the lead (which cannot change) is “BOB”. We can deduce from this that all dogs with a short name are on the same team (TIM, ROY, SUE, SUB).<br><br> Team 2 corresponds to “Corner 2” and the lead is “HEIGHTS” which contains the number “EIGHT”. All dogs on this team must contain numbers in their name (NINEVAH, OFTEN, LONE RANGER, WENTWORTH).<br><br> Team 3 corresponds to “DOUBLE TROUBLE STRAIGHTAWAY” and the lead is “BUMMER” so we can deduce that the dogs on this team must have a double letter. Therefore the other dogs on this team are (FLUFFY, ELLIOT, SAMMY, ULYSSES).<br><br> The remaining dogs must belong on Team 4. The logic for this team follows the track segment “THE INSIDE LANE”. The lead dog “CHIPS” has the word “HIP” inside. The remaining dogs all have non-number words inside them (S<b>POT</b>S, G<b>RUN</b>TER, D<b>RIP</b>SY, S<b>AND</b>Y)."
+            "text": "Each boat shows 12 letters representing a crew member in a seat of the boat. The story tells you that the seating of each boat is going to be changed (“we rearranged ourselves”). Each boat follows a different rule, as seen in the caption of the corresponding photo of each boat. The letters within each boat all move together, or uniformly abiding by that rule. <br/><br/><ul><li>James Caird: Roller 180° (all letters uniformly rotate 180 degrees to new positions) - <a href='#/hint-image?image=James-Caird-Clue' style='color: lightblue;'>see GIF here</a>.</li><br/> <li>Stancomb Wills: Flipper Upper (all letters are uniformly flipped top to bottom and bottom to top) - <a href='#/hint-image?image=Stancomb-Wills-Clue' style='color: lightblue;'>see GIF here</a>.</li><br/> <li>Dudley Docker: Sideways Swapper (letters in left column trade places with letters in right column) - <a href='#/hint-image?image=Dudley-Docker-Clue' style='color: lightblue;'>see GIF here</a>.</li></ul><br/> Your completed 6 x 6 grid should look <a href='#/hint-image?image=BoatsGridAnswer' style='color: lightblue;'>like this</a>. Now you’ll need to make sense of these rearranged letters in Part 2 of this puzzle."
           }
         ]
       },
       {
-        "label": "Part 2",
+        "label": "PART 2 - Deciphering the Message",
         "parts": [
           {
             "label": "Small Hint",
-            "text": "The journal has 3 items listed under the index chart title. You’ve completed Part 1, new teams are compiled. Alphabetizing just takes a little while."
-          },
-          {
-            "label": "Medium Hint",
-            "text": "If you’ve got the right dogs, on all the right teams, Then put them in alphabetical order to advance to part 3."
+            "text": "You’ve arranged all the crew into a new order on the grid. A sentence in plain sight the crew has carefully hid!"
           },
           {
             "label": "Big Hint",
-            "text": "Both the Flow Card and Step 3 seems to say That it’s time to go back to the map for a way To isolate a letter, note the word “index”. Conversations give you lines and letters to check."
+            "text": "The diamonds mark where there should be a space. Top left to bottom right and this test you will ace."
           },
           {
             "label": "Solution",
-            "text": "First, be sure you have solved Part 1 of this puzzle. With all the dogs on the correct teams, the new alphabetical order of the teams is:<br><br><ol> <li>1: BOB, ROY, SUB, SUE, TIM</li> <li>2: HEIGHTS, LONE RANGER, NINEVAH, OFTEN, WENTWORTH</li> <li>3: BUMMER, ELLIOT, FLUFFY, SAMMY, ULYSSES </li><li>4: CHIPS, DRIPSY, GRUNTER, SANDY, SPOTS</li></ol><br><br> Now you must return to the map to notice the conversations (there is one conversation in each quadrant of the map).<br><br><ul><li> The conversations have 2 numbers or placements indicated.</li><li> The conversation near Team 1 contains “last” and “first”.</li><li> The conversation near Team 2 contains “3” and “2”.</li><li> The conversation near Team 3 contains “5” and “6”.</li><li> The conversation near Team 4 contains “3” and “7”.</li></ul><br><br> In Episode 1, we learned how to “index” by solving Worsley’s stowaway puzzle. In this puzzle, the title “<b>INDEX</b> CHART” is a clue. For the first team, we would index the “last” dog’s “first” letter which is “T”. Here is the full solution:<br><br><ul><li> 1: BOB, ROY, SUB, SUE, TIM (last dog, first letter = <b>T</b>)</li><li> 2: HEIGHTS, LONE RANGER, NINEVAH, OFTEN, WENTWORTH (3rd dog, 2nd letter = <b>I</b>)</li><li> 3: BUMMER, ELLIOT, FLUFFY, SAMMY, ULYSSES (5th dog, 6th letter = <b>E</b>)</li><li> 4: CHIPS, DRIPSY, GRUNTER, SANDY, SPOTS (3rd dog, 7th letter = <b>R</b>)</li></ul><br><br> Your final solution is <b>TIER. Enter that answer on your solutions page beside the dog icon.</b>"
+            "text": "Reading top to bottom and left to right, using the diamonds as spaces the message reads: “THE ANSWER TO THIS PUZZLE IS THE WORD WRIGHT”."
           }
         ]
       }
     ]
   },
   {
-    "puzzle": "Wild’s Winds / Dot Matrix",
+    "puzzle": "Ice Pack Map",
     "hints": [
       {
         "label": "Nudge",
-        "text": "Two items, a note that is yellow, and a dot that is green. Each dot is a letter of the alphabet, it would seem?"
+        "text": "From Patience Camp to Elephant Island the crew must get. It is a maze to navigate without getting wet! The Cartouche on the map explains what the crew must do. Below it, the order of five shapes is important too."
       },
       {
         "label": "Small Hint",
-        "text": "With each dot labeled, you turn to the note Where Worsley has tracked, and Wild wrote The directions they traveled. Get out a pencil! Start connecting dots, by 35 and 25 until You get to Day 11, and stand back and see There are some places uncrossed, still free."
+        "text": "Starting at Patience Camp, you must follow the flow. Those little arrows tell you which way you can go. Based on the legend, a square must hold the first letter to know. From letter to letter the crew must sail and row."
       },
       {
         "label": "Medium Hint",
-        "text": "If you travel northwest, then southeast you must start Try the bottom right corner for your movements to chart Step-by-step and the lines are all through, The back of the note has the final clue."
+        "text": "Your first letter could either be “C”, “T”, or “E”. But “T” leads to a dead end, so this cannot be. In subzero temperatures this journey was absurd, But the crew’s journey still managed to spell a word."
       },
       {
         "label": "Big Hint",
-        "text": "By now you should have 4 uncrossed dots Unscrambling them will tell you lots."
+        "text": "If you choose the path beginning with a “C” No word materializes, you’ll quickly see. So you’ll need to start roundabout with an “E”, And then make sure to follow that with a “V”."
       },
       {
         "label": "Solution",
-        "text": "This puzzle requires you to notice the “A J Q” markings on the green dot matrix. These letters are meant to prompt you to label each dot with a letter of the alphabet. Since there are only 25 dots, Z is unaccounted for and irrelevant.<br><br> With each dot labeled, you can now start charting your course, following Wild’s notes. He tells us via the compass diagram that a movement up/down/left/right is equal to 25 miles. A diagonal movement is equivalent to 35 miles. While you do not know the exact starting spot, there are only a few valid options, and as you follow the course of the movements listed, there is only 1 possible option that allows you to stay within the bounds of the grid.<br><br> Once you have completed tracing your course on the green dot matrix, you should have 4 dots (letters) that have not been crossed through. They are “BHOT” and since the back of the matrix says “Once you find all four, unscramble them” the only intelligible word you can make is <b>BOTH. Enter that answer on your solutions page beside the compass icon.</br>"
+        "text": "The narrative of this episode indicates that the crew is at Patience Camp, and the text in the cartouche suggests that the crew is trying to get to Elephant Island. It also states that you must go with the flow (which are indicated by the white lines and arrows in the water ways), and to avoid dead ends. Just below the cartouche (in and around the compass) there are five shapes depicted to provide you with the order of the shapes you’ll need to collect as you make your way through the maze. The only path that allows you to spell a word by passing through the letters in the order provided, while following the flow of the currents, and avoiding dead ends, flows through the letters “EVENT”. All other paths break at least one of the requirements. <a href='#/hint-image?image=IceFlowSolution' style='color: lightblue;'>see here</a> for the completed maze."
       }
     ]
   },
   {
-    "puzzle": "How do they fit together?",
+    "puzzle": "Matches",
     "hints": [
       {
-        "label": "Nudge",
-        "text": "You got all the solutions?! Wow, look at you go! It’s time to focus your attention below To the grid with 6 clueful arrows. What are they trying to show?"
-      },
-      {
         "label": "Small Hint",
-        "text": "Enter your solutions, on diagonal lines Find the formation, where they share letters just fine."
+        "text": "You’ll see burnt matches in five different places. It’s okay if each one leaves its own traces."
       },
       {
         "label": "Medium Hint",
-        "text": "With words all placed, see the symbols by key letters. Those are the pipe ends that fit the ship better. Notice those letters on the engine room wall? Match the pipe symbol to the letter and scrawl!"
+        "text": "Each match is accompanied by a cross with numbers. A number 1 on the match box labelled “Tracers”."
       },
       {
         "label": "Big Hint",
-        "text": "If you’ve got all the pipes where they need to go Then read across the room, left to right, and follow the flow. “8L” is how this message begins The ending of the message reveals how you win!"
+        "text": "Trace the cross by number 1 to establish an orientation. Now move your paper to the next station. Don’t flip the paper or you might experience frustration! Don’t forget to trace the matches as you go. Before you know it, a chilly word will begin to show."
       },
       {
         "label": "Solution",
-        "text": "In the section “Now, how do they all fit together?” you must enter the 6 solutions on diagonal lines so that the words intersect, like a crossword. The grid should look <a href='#/hint-image?image=MetaPuzzle%20Solution' style='color: lightblue;'>like this</a><br><br> Now, note the symbols beside the letters “O E C L R”. Those symbols correspond to the ends of the 4 punch-out pipes in the envelope. (At this point, the engine room will need to be built according to the top left panel of the envelope interior.) If you fit the pipes into the slots, matching the pipe end symbol to the letter on the engine room, you will have assembled the pipes correctly. Now, if you read the letters along the pipes, from left to right, following the flow of the pipes, you get the values: “8LETTERSAROUNDCENTRE”.<br><br> This phrase is not the final phrase, as it does not make sense with the narrative. However, it is a clue, meant to direct you to the center of the grid. There are 8 letters around the center in a diamond shape, spelling <b>TOTHEICE.<br> This is essentially the order given by Shackleton to his crew as the ship gave way under the pressure of the ice. You can enter this solution in the portal to see what Cousin JJ has to say.</b>"
+        "text": "Begin by placing the tobacco rolling paper on top of the match box depicted on the envelope. Now, trace both the cross and the three match sticks you see.<br/> Now, without flipping the tracing paper upside down, align the cross that you traced from the match box with the cross seen on the back of Wild’s Note (#2). Now trace that single match.</br> Repeat this step with numbers 3-5, The solution to this puzzle is ICE. Watch a solution video <a href='#/hint-image?image=TobaccoSolution' style='color: lightblue;'>here</a>."
+      }
+    ]
+  },
+  {
+    "puzzle": "Meta Puzzle",
+    "hints": [
+      {
+        "label": "Before attempting the Meta Puzzle",
+        "text": "Make sure you’ve got all six of the solution words correct by by verifying them in this portal."
+      },
+      {
+        "label": "PART 1 - Finding the Bearings",
+        "parts": [
+          {
+            "label": "Small Hint",
+            "text": "Six days of navigating through the ice flows was no joke. Witness the intensity photos and paintings evoke? (page 41-42)"
+          },
+          {
+            "label": "Medium Hint",
+            "text": "The numbers on each photo follow a common pattern. Study them closely and their meaning you will learn."
+          },
+          {
+            "label": "Big Hint",
+            "text": "The first painting depicts “Day 1”, and 120° is the bearing known. Notice how April 10th, 1916 is the date that is shown?"
+          },
+          {
+            "label": "Solution",
+            "text": "Page 40 of the journal shows that you’ll need to know the bearing for each of the 6 days. On pages 41 and 42 there are photos and paintings from this 6-day journey from Patience Camp to Elephant Island. Each one shows the date in chronological order, followed by a bearing (these are not entirely historically accurate from a date perspective, but they are very close). The first painting on page 41 depicts “Day 1”, which was 04 10 16 (April 10th, 1916), followed by a bearing of 120°. Enter 120° as the bearing for Day 1 on page 40. Repeat this process to get the following bearings for each of the six days:\nDay 1: 120°\nDay 2: 160°\nDay 3: 130°\nDay 4: 60°\nDay 5: 270°\nDay 6: 90°"
+          }
+        ]
+      },
+      {
+        "label": "PART 2 - Reading the Compass",
+        "parts": [
+          {
+            "label": "Before you begin",
+            "text": "Make sure you’ve got the correct bearings from Part 1 above, or verifying them in this portal."
+          },
+          {
+            "label": "Small Hint",
+            "text": "Have you written your six Solution Words on the compass? If not, you’ll be more lost than Columbus. You won’t need a navigational sextant or a map. Attach your compass to the envelope using the flaps."
+          },
+          {
+            "label": "Medium Hint",
+            "text": "Go slowly and look at one day at a time. Follow these instructions and you’ll be fine. Point the red arm at the bearing you seek. Don’t let it move or you might spring a leak!"
+          },
+          {
+            "label": "Big Hint",
+            "text": "On Day 1, hold the red arm towards 120 degrees. Now look at 142, to find it aligned with the letter “E”. Don’t move the compass or you’ll be lost at sea. From 178-214, four more letters you will see."
+          },
+          {
+            "label": "Solution",
+            "text": "Begin by transferring your solutions words from Page 40 onto the Compass Wheel provided. It should look something <a href='#/hint-image?image=MetaWheel' style='color: lightblue;'>like this</a>. Going one day at a time, use the bearing you got from Part 1 of the Meta Puzzle to determine the position of the compass ring for that day. Using Day 1 as an example, Page 40 provides the information you need to know that your bearing for the day is 120°, and the readings you’re looking for on that day are 142° and 178°-214°. Now follow these three steps:\n1. Begin by aligning the red arm of the compass to point to the bearing of 120°.\n2. Now, look to see which letter 142° aligns with, and you will see it is the letter “E” from the word “ice” on the Compass Wheel. This letter is then to be recorded at the bottom of Page 40, which is already prefilled to confirm you’re on the right track.\n3. Repeat step 2, looking for the range from 178°-214°, and you’ll see this range aligns with the letter “IGHT” from the word “wright” on the Compass Wheel.\nDay 1 yields the word “EIGHT” to be used in your final phrase to conclude the episode.\nRepeat Steps 1-3 above for the remaining five days. You will get the following results:\nDay 1: E, IGHT\nDay 2: HU, N, D, R, E, D\nDay 3: M, I, LE, S\nDay 4: R, E, S, C, U, E\nDay 5: THE\nDay 6: C, R, EW\nThe concluding phrase for this leg of the journey is EIGHT HUNDRED MILES RESCUE THE CREW."
+          }
+        ]
       }
     ]
   }
