@@ -12,11 +12,7 @@ const contents: Asset[] = [
     link: "/our-apologies?index=0",
   },
   {
-    label: "Penguin Artwork",
-    link: "/our-apologies?index=1",
-  },
-  {
-    label: "Seating Chart",
+    label: "Seating Chart Grid",
     link: "/our-apologies?index=2",
   },
   {

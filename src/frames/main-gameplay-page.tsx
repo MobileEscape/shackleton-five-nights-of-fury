@@ -76,10 +76,10 @@ const givenLetters = [
 
 const backgroundImage: any = {
   saddle: [Seal, SealLoading],
-  wright: [Penguin, PenguinLoading],
+  wright: [Icefield, IcefieldLoading],
   hums: [Castle, CastleLoading],
   event: [Polaroid, PolaroidLoading],
-  hear: [Icefield, IcefieldLoading],
+  hear: [Penguin, PenguinLoading],
   ice: [Match, MatchLoading],
   totheice: [ShipInIce, ShipInIceLoading],
 };

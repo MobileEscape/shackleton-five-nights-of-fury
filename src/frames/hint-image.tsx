@@ -14,6 +14,8 @@ import StoveBuild from "assets/Hint-Images/StoveBuild.mp4";
 import StoveSolution from "assets/Hint-Images/StoveSolution.mp4";
 import TobaccoSolution from "assets/Hint-Images/TobaccoSolution.mp4";
 import MetaWheel from "assets/Hint-Images/MetaWheel.jpg";
+import SeatingChartSolution from "assets/Hint-Images/SeatingChartSolution.jpeg";
+import PenguinSolution from "assets/Hint-Images/PenguinSolution.jpg";
 
 const MainButton = lazy(() => import("components/buttons/main-button"));
 interface HintImageProps extends FrameProps {}
@@ -58,6 +60,14 @@ const HintImageFrame: FunctionComponent<HintImageProps> = ({}) => {
     {
       title: "MetaWheel",
       image: MetaWheel,
+    },
+    {
+      title: "SeatingChartSolution",
+      image: SeatingChartSolution,
+    },
+    {
+      title: "PenguinSolution",
+      image: PenguinSolution,
     },
   ];
 

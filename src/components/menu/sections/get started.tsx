@@ -11,7 +11,7 @@ const GetStartedSection: FunctionComponent<GetStartedSectionProps> = () => {
       <br />
       <b>2. Get Pen/ Pencil and Paper:</b> You will want to take notes. <br />
       <b>
-        3. Read the intro letter on your envelope and start looking for clues:
+        3. read the recap on your envelope and start looking for clues:
       </b>{" "}
       this being an escape-room style puzzle it might not be immediately obvious
       what to do, read the intro letter and start looking for clues in the

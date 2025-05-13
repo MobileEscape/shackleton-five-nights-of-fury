@@ -157,7 +157,7 @@ const Menu: FunctionComponent<MenuProps> = () => {
           </svg>
         </div>
       ),
-      link: "https://www.theescapemail.com/pages/shackleton-ep1-historicity",
+      link: "https://www.theescapemail.com/pages/shackleton-ep4-historicity",
     },
     {
       button: (

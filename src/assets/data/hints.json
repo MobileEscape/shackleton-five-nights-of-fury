@@ -109,7 +109,7 @@
           },
           {
             "label": "Big Hint",
-            "text": "The back of Wild’s note has a handy diagram. Follow it closely to ace this exam. See it assembled. Shoot a video assembling it and pointing out the essential parts."
+            "text": "The back of Wild’s note has a handy diagram. Follow it closely to ace this exam."
           },
           {
             "label": "See it Assembled",
@@ -165,7 +165,7 @@
       },
       {
         "label": "Solution",
-        "text": "At the top of page 33, you’ll see sketches of Chinstrap Penguins. The dark portions of the penguins act as “shadows” or negative space to each letter that is being depicted. If you adjust your perspective by either squinting, or moving the paper farther away, you should be able to see the word “HEAR” spelled out in negative space."
+        "text": "At the top of page 33, you’ll see sketches of Chinstrap Penguins. The dark portions of the penguins act as “shadows” or negative space to each letter that is being depicted. If you adjust your perspective by either squinting, or moving the paper farther away, you should be able to see the word “HEAR” spelled out in negative space. <a href='#/hint-image?image=PenguinSolution' style='color: lightblue;'>See solution here</a>"
       }
     ]
   },
@@ -210,7 +210,7 @@
           },
           {
             "label": "Solution",
-            "text": "Reading top to bottom and left to right, using the diamonds as spaces the message reads: “THE ANSWER TO THIS PUZZLE IS THE WORD WRIGHT”."
+            "text": "Reading top to bottom and left to right, using the diamonds as spaces the message reads: “THE ANSWER TO THIS PUZZLE IS THE WORD WRIGHT”. <a href='#/hint-image?image=SeatingChartSolution' style='color: lightblue;'>See solution here</a>"
           }
         ]
       }

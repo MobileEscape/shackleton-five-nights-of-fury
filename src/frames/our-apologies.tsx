@@ -11,8 +11,6 @@ import MapLoading from "../assets/contents/Map-Loading.png";
 import Map from "../assets/contents/Map.png";
 import PagesLoading from "../assets/contents/Pages-Loading.png";
 import Pages from "../assets/contents/Pages.png";
-import PenguinsLoading from "../assets/contents/Penguins-Loading.png";
-import Penguins from "../assets/contents/Penguins.png";
 import SeatingChart from "../assets/contents/Seating-Chart.png";
 import SeatingChartLoading from "../assets/contents/Seating-Chart-Loading.png";
 import StoveParts from "../assets/contents/StoveParts.png";
@@ -35,15 +33,9 @@ const getHelp = [
     text: `Your envelope should have a map. If you're missing this item please contact <a style="color:darkblue" href="mailto:info@theescapemail.com" target="_blank">info@theescapemail.com</a> and we'll help make it right.`,
   },
   {
-    image: Penguins,
-    loading: PenguinsLoading,
-    title: "Penguin Artwork",
-    text: `Your envelope should have Penguin Artwork. If you're missing this item please contact <a style="color:darkblue" href="mailto:info@theescapemail.com" target="_blank">info@theescapemail.com</a> and we'll help make it right.`,
-  },
-  {
     image: SeatingChart,
     loading: SeatingChartLoading,
-    title: "Seating Chart",
+    title: "Seating Chart Grid",
     text: `Your envelope should have a Seating Chart. If you're missing this item please contact <a style="color:darkblue" href="mailto:info@theescapemail.com" target="_blank">info@theescapemail.com</a> and we'll help make it right.`,
   },
   {

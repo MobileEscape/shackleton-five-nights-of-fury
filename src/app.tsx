@@ -59,6 +59,7 @@ function App() {
     });
   };
 
+  // Direct linking to hints
   useEffect(() => {
     if (search.get("hints") == "true") {
       setHintsOpen(true);
