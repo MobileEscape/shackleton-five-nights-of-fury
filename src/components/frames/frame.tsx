@@ -37,7 +37,7 @@ const Frame: FunctionComponent<FrameProps> = ({
       <Suspense>
         <Topbar noBackground={transparentHeader}></Topbar>
         <Menu></Menu>
-        {step == 4 && <HintToggle></HintToggle>}
+        {(step == 4 || step == 5) && <HintToggle></HintToggle>}
         <Hints></Hints>
         {children}
 

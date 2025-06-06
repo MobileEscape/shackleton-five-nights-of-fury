@@ -28,7 +28,7 @@ const JohnsonIsInFrame: FunctionComponent<JohnsonIsInFrameProps> = ({
               className="absolute max-w-[90vw] w-full h-full top-0 right-0 "
             />
             <p className="relative z-10 text-wrap text-3xl my-8 font-mrsEaves mx-2">
-              Share your thoughts, review the game on:
+              Click below to leave a review:
             </p>
             <MainButton
               onClick={() =>
@@ -79,27 +79,38 @@ const JohnsonIsInFrame: FunctionComponent<JohnsonIsInFrameProps> = ({
               src={Border}
               className="absolute max-w-[90vw] w-full h-full top-0 left-0 z-0 "
             />
-            <p className="relative text-2xl my-8 font-mrsEaves mx-3 md:mx-16 z-10">
+            <p className="relative text-2xl mt-8 mb-2 font-mrsEaves mx-3 md:mx-16 z-10 leading-[1.2]">
               {`You have successfully completed Episode 4 of the Shackleton Series! Your time was: ${`0${hours}`.slice(
                 -2
               )}:${`0${minutes}`.slice(-2)}:${`0${seconds}`.slice(-2)} `}
             </p>
 
-            <p className="relative text-wrap text-3xl my-4 font-mrsEaves mx-2 z-10">
-              Share your thoughts, review the game on:
-            </p>
-            <MainButton
-              onClick={() => setModalOpen(true)}
-              className="mx-auto  w-[300px] scale-75"
-              text="Review"
-            />
-            <MainButton
-              onClick={() => window.open("http://theescapemail.com")}
-              className="mx-auto  w-[300px] scale-75"
-              text="Shop"
-            />
+            <div className="border-2 border-black bg-secondary/30 rounded-lg p-2 mb-4 mx-2 text-center">
+              <p className="relative text-2xl  px-4 z-30 font-mrsEaves leading-[1]">
+                Share your thoughts, review the game on:
+              </p>
+              <MainButton
+                onClick={() => setModalOpen(true)}
+                className="mx-auto  w-[300px] scale-75 "
+                text="Review"
+              />
+            </div>
+            <div className="border-2 border-black bg-secondary/30 rounded-lg p-2 mb-4 mx-2  text-center">
+              <p className="relative text-2xl  px-4 z-30 font-mrsEaves leading-[1]">
+                Buy a refill kit and check out our other products:{" "}
+              </p>
+              <MainButton
+                onClick={() =>
+                  window.open(
+                    "https://www.theescapemail.com/pages/shackleton-complete"
+                  )
+                }
+                className="mx-auto  w-[300px] scale-75"
+                text="Shop"
+              />
+            </div>
 
-            <p className="relative text-2xl mb-6 px-4 z-30 font-mrsEaves mx-4">
+            <p className="relative text-2xl mb-6 px-4 z-30 font-mrsEaves mx-4 leading-[1.2]">
               Check how historically accurate this episode is{" "}
               <a
                 href="https://www.theescapemail.com/pages/shackleton-ep4-historicity"
