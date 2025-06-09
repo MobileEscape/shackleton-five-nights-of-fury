@@ -37,17 +37,9 @@ const JohnsonIsInFrame: FunctionComponent<JohnsonIsInFrameProps> = ({
                 )
               }
               className="mx-auto w-[300px] mt-10 scale-90"
-              text="Amazon CA"
+              text="Amazon"
             />
-            <MainButton
-              onClick={() =>
-                window.open(
-                  "https://www.amazon.com/review/create-review/?ie=UTF8&channel=glance-detail&asin=B0D23KRFR1"
-                )
-              }
-              className="mx-auto w-[300px]  scale-90"
-              text="Amazon US"
-            />
+
             <MainButton
               onClick={() =>
                 window.open(

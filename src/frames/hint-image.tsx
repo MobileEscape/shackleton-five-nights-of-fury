@@ -3,6 +3,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import OctagonVideo from "components/framingvideo";
 import { FunctionComponent, lazy } from "react";
+import { FadeOutSound, IntroSound, PlaySound } from "sounds";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
 import BoatsGridAnswer from "assets/Hint-Images/BoatsGridAnswer.jpg";
@@ -81,16 +82,13 @@ const HintImageFrame: FunctionComponent<HintImageProps> = ({}) => {
           <OctagonVideo
             src={image}
             className="w-full max-w-[90%] m-auto"
-            autoPlay
             triggerPlay={true}
             subtitles={[]}
-            loop
-            muted
+            onEnded={() => PlaySound(IntroSound)}
+            onPause={() => PlaySound(IntroSound)}
+            onPlay={() => FadeOutSound(IntroSound)}
             playsInline
             controls={false}
-            onEnded={() => {
-              navigate(-1);
-            }}
           />
           <MainButton
             onClick={() => navigate(-1)}
