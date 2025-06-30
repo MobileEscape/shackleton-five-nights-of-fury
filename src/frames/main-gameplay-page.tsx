@@ -56,10 +56,10 @@ const answers = [
 
 const messages = [
   "142,178,214",
-  "42,82,208,72,180,16",
   "268-280,80,6,140,116,352",
-  "196-224",
   "264,124,350-0,278",
+  "42,82,208,72,180,16",
+  "196-224",
   "96,134,110-122",
 ];
 
@@ -67,7 +67,7 @@ const bearings = ["120", "160", "130", "60", "270", "90"];
 
 const givenLetters = [
   ["", "", "", "", "", "E"],
-  ["W", "", "", "", "", ""],
+  ["", "R", "", "", "", ""],
   ["", "", "", "S"],
   ["", "", "", "", ""],
   ["", "E", "", ""],
@@ -220,18 +220,33 @@ const MainGameFrame: FunctionComponent<MainGameFrame> = ({ index }) => {
           <h1 className="relative text-center font-kingEdwards text-primary font-semibold text-5xl md:text-6xl z-10">
             Enter Bearings
           </h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-3 items-center m-auto justify-center md:gap-4 gap-4 my-4 md:my-12 p-4 z-30">
-            {bearings.map((_, i) => (
-              <div className="group flex">
-                <PuzzleBearing
-                  index={i}
-                  message={messages[i]}
-                  answer={bearings[i]}
-                  key={`answer-${i}`}
-                  solvePuzzle={() => setSolveBearings((prev) => prev + 1)}
-                />
-              </div>
-            ))}
+          <div className="flex md:flex-row flex-col items-center justify-center">
+            <div className="grid grid-cols-1  md:grid-rows-3 items-center m-auto justify-center md:gap-4 gap-4   p-4 z-30">
+              {bearings.slice(0, 3).map((_, i) => (
+                <div className="group flex">
+                  <PuzzleBearing
+                    index={i}
+                    message={messages[i]}
+                    answer={bearings[i]}
+                    key={`answer-${i}`}
+                    solvePuzzle={() => setSolveBearings((prev) => prev + 1)}
+                  />
+                </div>
+              ))}
+            </div>
+            <div className="grid grid-cols-1  md:grid-rows-3 items-center m-auto justify-center md:gap-4 gap-4   p-4 z-30">
+              {bearings.slice(3, 6).map((_, i) => (
+                <div className="group flex">
+                  <PuzzleBearing
+                    index={i + 3}
+                    message={messages[i + 3]}
+                    answer={bearings[i + 3]}
+                    key={`answer-${i + 3}`}
+                    solvePuzzle={() => setSolveBearings((prev) => prev + 1)}
+                  />
+                </div>
+              ))}
+            </div>
           </div>
           <div className="bg-black w-full h-[3px] my-8" />
           <h1 className="relative z-10 text-center font-kingEdwards text-primary font-semibold text-5xl mt-3 md:my-10 md:text-6xl my-12 ">
