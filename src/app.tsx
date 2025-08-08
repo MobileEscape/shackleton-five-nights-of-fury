@@ -68,6 +68,8 @@ function App() {
 
   useEffect(() => {
     // Starts and stops music at certain steps
+    if (step < 6 && step > 3) timerProps.setPaused(false);
+    else timerProps.setPaused(true);
     if (step === 4 || step === 5 || step === 7) {
       if (music && !IntroSound.playing()) PlaySound(IntroSound);
     } else {

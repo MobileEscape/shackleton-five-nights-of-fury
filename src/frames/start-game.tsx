@@ -16,7 +16,7 @@ const StartGame: FunctionComponent<YourFirstMissionFrameProps> = ({
   index,
 }) => {
   const navigate = useNavigate();
-  const { advance, setPaused } = useContext(AppContext);
+  const { advance } = useContext(AppContext);
   return (
     <Frame index={index}>
       <div className="relative w-[460px] h-[500px] m-auto mt-[20vh] max-w-[90vw] text-center">
@@ -48,7 +48,6 @@ const StartGame: FunctionComponent<YourFirstMissionFrameProps> = ({
             text="Start Game"
             onClick={() => {
               advance();
-              setPaused(false);
             }}
           />
         </div>
